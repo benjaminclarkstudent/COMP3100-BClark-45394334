@@ -1,0 +1,4523 @@
+# ds-sim server 28-Feb, 2023 @ MQ - client-server
+# Server-side simulator started with './ds-server -c ./S1testConfigs/ds-S1-config04--wk6.xml -v brief -n'
+# Waiting for connection to port 50000 of IP address 127.0.0.1
+RCVD HELO
+SENT OK
+RCVD AUTH bdclark1999
+# Welcome  bdclark1999!
+# The system information can be read from 'ds-system.xml'
+SENT OK
+RCVD REDY
+SENT JOBN 37 0 1135 3 700 3800
+RCVD SCHD 0 medium 0
+t:         37 job     0 (waiting) on # 0 of server medium (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 60 1 597 1 700 1400
+RCVD SCHD 1 tiny 0
+t:         60 job     1 (waiting) on # 0 of server tiny (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 96 2 1441 2 1500 2100
+RCVD SCHD 2 medium 0
+t:         96 job     2 (waiting) on # 0 of server medium (booting) SCHEDULED
+SENT OK
+RCVD REDY
+t:         97 job     0 on # 0 of server medium RUNNING
+SENT JOBN 101 3 954 2 900 2500
+RCVD SCHD 3 medium 0
+t:        101 job     3 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:        120 job     1 on # 0 of server tiny RUNNING
+SENT JOBN 137 4 5 1 100 2000
+RCVD SCHD 4 tiny 0
+t:        137 job     4 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 141 5 131 3 2700 2600
+RCVD SCHD 5 medium 0
+t:        141 job     5 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 153 6 836 4 4000 7600
+RCVD SCHD 6 medium 0
+t:        153 job     6 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 165 7 344 1 200 1000
+RCVD SCHD 7 tiny 0
+t:        165 job     7 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 169 8 235 1 100 800
+RCVD SCHD 8 tiny 0
+t:        169 job     8 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 169 9 591 1 300 700
+RCVD SCHD 9 tiny 0
+t:        169 job     9 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 171 10 315 2 200 3200
+RCVD SCHD 10 medium 0
+t:        171 job    10 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 173 11 26 1 500 600
+RCVD SCHD 11 tiny 0
+t:        173 job    11 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 175 12 5 2 1400 900
+RCVD SCHD 12 medium 0
+t:        175 job    12 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 177 13 149 3 1900 500
+RCVD SCHD 13 medium 0
+t:        177 job    13 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 177 14 220 4 3500 3900
+RCVD SCHD 14 medium 0
+t:        177 job    14 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 180 15 467 1 1000 1700
+RCVD SCHD 15 tiny 0
+t:        180 job    15 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 181 16 2648 1 600 600
+RCVD SCHD 16 tiny 0
+t:        181 job    16 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 185 17 1440 6 5700 10900
+RCVD SCHD 17 large 0
+t:        185 job    17 (waiting) on # 0 of server large (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 187 18 5 4 3200 6400
+RCVD SCHD 18 medium 0
+t:        187 job    18 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 190 19 292 4 3000 2200
+RCVD SCHD 19 medium 0
+t:        190 job    19 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 194 20 88 3 3000 5100
+RCVD SCHD 20 medium 0
+t:        194 job    20 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 197 21 253 3 500 2800
+RCVD SCHD 21 medium 0
+t:        197 job    21 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 201 22 2555 4 1100 900
+RCVD SCHD 22 medium 0
+t:        201 job    22 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 201 23 93447 2 500 1900
+RCVD SCHD 23 medium 0
+t:        201 job    23 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 205 24 1005 15 13900 21200
+RCVD SCHD 24 xlarge 0
+t:        205 job    24 (waiting) on # 0 of server xlarge (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 207 25 1150 1 700 1800
+RCVD SCHD 25 tiny 0
+t:        207 job    25 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 211 26 9 8 7800 13500
+RCVD SCHD 26 xlarge 0
+t:        211 job    26 (waiting) on # 0 of server xlarge (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 212 27 2140 2 1600 1400
+RCVD SCHD 27 medium 0
+t:        212 job    27 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 216 28 2455 2 600 1400
+RCVD SCHD 28 medium 0
+t:        216 job    28 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 220 29 17 9 8200 16700
+RCVD SCHD 29 xlarge 0
+t:        220 job    29 (waiting) on # 0 of server xlarge (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 222 30 2194 8 1200 8900
+RCVD SCHD 30 xlarge 0
+t:        222 job    30 (waiting) on # 0 of server xlarge (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 222 31 40568 7 3200 11600
+RCVD SCHD 31 xlarge 0
+t:        222 job    31 (waiting) on # 0 of server xlarge (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 223 32 43670 2 500 1500
+RCVD SCHD 32 medium 0
+t:        223 job    32 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 227 33 126251 1 400 200
+RCVD SCHD 33 tiny 0
+t:        227 job    33 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 227 34 16 8 6700 1200
+RCVD SCHD 34 xlarge 0
+t:        227 job    34 (waiting) on # 0 of server xlarge (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 231 35 214 3 1500 3000
+RCVD SCHD 35 medium 0
+t:        231 job    35 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 232 36 760 2 1800 1100
+RCVD SCHD 36 medium 0
+t:        232 job    36 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 236 37 262 4 700 5800
+RCVD SCHD 37 medium 0
+t:        236 job    37 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 240 38 290 1 800 400
+RCVD SCHD 38 tiny 0
+t:        240 job    38 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 240 39 135 1 500 1500
+RCVD SCHD 39 tiny 0
+t:        240 job    39 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 241 40 198 5 3300 5400
+RCVD SCHD 40 xlarge 0
+t:        241 job    40 (waiting) on # 0 of server xlarge (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 244 41 995 1 600 1100
+RCVD SCHD 41 tiny 0
+t:        244 job    41 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:        245 job    17 on # 0 of server large RUNNING
+SENT JOBN 245 42 115468 5 3600 5500
+RCVD SCHD 42 xlarge 0
+t:        245 job    42 (waiting) on # 0 of server xlarge (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 245 43 154 9 7000 18800
+RCVD SCHD 43 xlarge 0
+t:        245 job    43 (waiting) on # 0 of server xlarge (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 245 44 10 10 8000 7300
+RCVD SCHD 44 xlarge 0
+t:        245 job    44 (waiting) on # 0 of server xlarge (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 247 45 45 2 1900 3500
+RCVD SCHD 45 medium 0
+t:        247 job    45 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 255 46 404 2 600 1000
+RCVD SCHD 46 medium 0
+t:        255 job    46 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 258 47 49 2 1000 1300
+RCVD SCHD 47 medium 0
+t:        258 job    47 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 263 48 368 4 4100 3900
+RCVD SCHD 48 medium 0
+t:        263 job    48 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 263 49 2 2 700 800
+RCVD SCHD 49 medium 0
+t:        263 job    49 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:        265 job    24 on # 0 of server xlarge RUNNING
+SENT JOBN 267 50 19 4 3400 2400
+RCVD SCHD 50 medium 0
+t:        267 job    50 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 267 51 519 1 600 1200
+RCVD SCHD 51 tiny 0
+t:        267 job    51 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 271 52 497 4 3800 4500
+RCVD SCHD 52 medium 0
+t:        271 job    52 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 273 53 41 7 1300 14500
+RCVD SCHD 53 xlarge 0
+t:        273 job    53 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 309 54 2603 5 5200 3300
+RCVD SCHD 54 xlarge 0
+t:        309 job    54 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 327 55 143 2 500 2800
+RCVD SCHD 55 medium 0
+t:        327 job    55 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 337 56 30 2 700 2800
+RCVD SCHD 56 medium 0
+t:        337 job    56 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 359 57 66874 1 900 2000
+RCVD SCHD 57 tiny 0
+t:        359 job    57 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 364 58 98660 8 7800 5500
+RCVD SCHD 58 xlarge 0
+t:        364 job    58 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 365 59 134 3 1100 1300
+RCVD SCHD 59 medium 0
+t:        365 job    59 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 374 60 698 2 1500 3500
+RCVD SCHD 60 medium 0
+t:        374 job    60 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 414 61 26 1 100 1200
+RCVD SCHD 61 tiny 0
+t:        414 job    61 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 423 62 538 1 700 1700
+RCVD SCHD 62 tiny 0
+t:        423 job    62 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 431 63 83 5 3000 3300
+RCVD SCHD 63 xlarge 0
+t:        431 job    63 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 455 64 133 7 3100 14500
+RCVD SCHD 64 xlarge 0
+t:        455 job    64 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 457 65 86 1 700 1500
+RCVD SCHD 65 tiny 0
+t:        457 job    65 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 497 66 116 1 600 1900
+RCVD SCHD 66 tiny 0
+t:        497 job    66 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 503 67 34 1 700 500
+RCVD SCHD 67 tiny 0
+t:        503 job    67 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 540 68 192 1 900 500
+RCVD SCHD 68 tiny 0
+t:        540 job    68 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 577 69 10 4 2600 3500
+RCVD SCHD 69 medium 0
+t:        577 job    69 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 607 70 416 1 700 500
+RCVD SCHD 70 tiny 0
+t:        607 job    70 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 654 71 882 6 5200 1500
+RCVD SCHD 71 xlarge 0
+t:        654 job    71 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 671 72 3516 2 400 500
+RCVD SCHD 72 medium 0
+t:        671 job    72 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:        674 job     1 on # 0 of server tiny COMPLETED
+t:        674 job     4 on # 0 of server tiny RUNNING
+SENT JCPL 674 1 tiny 0
+RCVD REDY
+SENT JOBN 698 73 886 2 1000 1200
+RCVD SCHD 73 medium 0
+t:        698 job    73 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 734 74 137 1 500 500
+RCVD SCHD 74 tiny 0
+t:        734 job    74 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 735 75 88 4 2900 2800
+RCVD SCHD 75 medium 0
+t:        735 job    75 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 748 76 473 5 3300 9300
+RCVD SCHD 76 xlarge 0
+t:        748 job    76 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 766 77 467 2 300 2600
+RCVD SCHD 77 medium 0
+t:        766 job    77 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 766 78 153 2 1400 800
+RCVD SCHD 78 medium 0
+t:        766 job    78 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 770 79 64000 2 1200 1700
+RCVD SCHD 79 medium 0
+t:        770 job    79 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 770 80 35977 12 13500 7800
+RCVD SCHD 80 xlarge 0
+t:        770 job    80 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 770 81 201 16 16600 65300
+RCVD SCHD 81 xlarge 0
+t:        770 job    81 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 773 82 232 6 3300 10500
+RCVD SCHD 82 xlarge 0
+t:        773 job    82 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:        782 job     4 on # 0 of server tiny COMPLETED
+t:        782 job     7 on # 0 of server tiny RUNNING
+SENT JCPL 782 4 tiny 0
+RCVD REDY
+SENT JOBN 783 83 2535 4 2100 6800
+RCVD SCHD 83 medium 0
+t:        783 job    83 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 790 84 96 5 3600 900
+RCVD SCHD 84 xlarge 0
+t:        790 job    84 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 795 85 52 2 2100 3500
+RCVD SCHD 85 medium 0
+t:        795 job    85 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 799 86 1322 2 400 800
+RCVD SCHD 86 medium 0
+t:        799 job    86 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 803 87 80 8 1200 4000
+RCVD SCHD 87 xlarge 0
+t:        803 job    87 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 804 88 396 1 800 400
+RCVD SCHD 88 tiny 0
+t:        804 job    88 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 804 89 66 3 1300 1900
+RCVD SCHD 89 medium 0
+t:        804 job    89 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 807 90 165 1 200 1300
+RCVD SCHD 90 tiny 0
+t:        807 job    90 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 814 91 345 2 1200 1800
+RCVD SCHD 91 medium 0
+t:        814 job    91 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:        848 job    24 on # 0 of server xlarge COMPLETED
+t:        848 job    26 on # 0 of server xlarge RUNNING
+SENT JCPL 848 24 xlarge 0
+RCVD REDY
+t:        862 job    26 on # 0 of server xlarge COMPLETED
+t:        862 job    29 on # 0 of server xlarge RUNNING
+SENT JCPL 862 26 xlarge 0
+RCVD REDY
+SENT JOBN 873 92 27 5 4400 600
+RCVD SCHD 92 large 0
+t:        873 job    92 (waiting) on # 0 of server large (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:        882 job    29 on # 0 of server xlarge COMPLETED
+t:        882 job    30 on # 0 of server xlarge RUNNING
+t:        882 job    31 on # 0 of server xlarge RUNNING
+SENT JCPL 882 29 xlarge 0
+RCVD REDY
+SENT JOBN 899 93 1 6 2200 6100
+RCVD SCHD 93 xlarge 0
+t:        899 job    93 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 943 94 140 1 300 1600
+RCVD SCHD 94 tiny 0
+t:        943 job    94 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 944 95 7 5 2800 3900
+RCVD SCHD 95 xlarge 0
+t:        944 job    95 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 974 96 2947 1 900 1600
+RCVD SCHD 96 tiny 0
+t:        974 job    96 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 998 97 1106 2 1900 3500
+RCVD SCHD 97 medium 0
+t:        998 job    97 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1005 98 24 4 1600 3000
+RCVD SCHD 98 medium 0
+t:       1005 job    98 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1032 99 16 2 1400 2000
+RCVD SCHD 99 medium 0
+t:       1032 job    99 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1038 100 188 2 1300 3000
+RCVD SCHD 100 medium 0
+t:       1038 job   100 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1054 101 645 2 500 2300
+RCVD SCHD 101 medium 0
+t:       1054 job   101 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       1071 job     7 on # 0 of server tiny COMPLETED
+t:       1071 job     8 on # 0 of server tiny RUNNING
+SENT JCPL 1071 7 tiny 0
+RCVD REDY
+SENT JOBN 1094 102 505 3 400 4500
+RCVD SCHD 102 medium 0
+t:       1094 job   102 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1095 103 1 2 1500 1000
+RCVD SCHD 103 medium 0
+t:       1095 job   103 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1128 104 863 3 2000 3900
+RCVD SCHD 104 medium 0
+t:       1128 job   104 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1140 105 18 3 900 4200
+RCVD SCHD 105 medium 0
+t:       1140 job   105 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1166 106 363 1 300 500
+RCVD SCHD 106 tiny 0
+t:       1166 job   106 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1219 107 967 3 2400 1800
+RCVD SCHD 107 medium 0
+t:       1219 job   107 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1282 108 365 1 100 1900
+RCVD SCHD 108 tiny 0
+t:       1282 job   108 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       1290 job     8 on # 0 of server tiny COMPLETED
+t:       1290 job     9 on # 0 of server tiny RUNNING
+SENT JCPL 1290 8 tiny 0
+RCVD REDY
+SENT JOBN 1303 109 122 1 300 600
+RCVD SCHD 109 tiny 0
+t:       1303 job   109 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       1315 job     0 on # 0 of server medium COMPLETED
+t:       1315 job     2 on # 0 of server medium RUNNING
+t:       1315 job     3 on # 0 of server medium RUNNING
+SENT JCPL 1315 0 medium 0
+RCVD REDY
+SENT JOBN 1320 110 113878 4 3600 7100
+RCVD SCHD 110 medium 0
+t:       1320 job   110 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1373 111 4 2 900 3700
+RCVD SCHD 111 medium 0
+t:       1373 job   111 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1377 112 20 5 4500 10300
+RCVD SCHD 112 xlarge 0
+t:       1377 job   112 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       1424 job    17 on # 0 of server large COMPLETED
+t:       1424 job    92 on # 0 of server large RUNNING
+SENT JCPL 1424 17 large 0
+RCVD REDY
+SENT JOBN 1430 113 15 7 4200 8000
+RCVD SCHD 113 xlarge 0
+t:       1430 job   113 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1434 114 148 3 2700 300
+RCVD SCHD 114 medium 0
+t:       1434 job   114 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1437 115 1314 5 900 9000
+RCVD SCHD 115 xlarge 0
+t:       1437 job   115 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       1471 job    92 on # 0 of server large COMPLETED
+SENT JCPL 1471 92 large 0
+RCVD REDY
+SENT JOBN 1513 116 89 4 4300 3600
+RCVD SCHD 116 medium 0
+t:       1513 job   116 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1529 117 24 3 900 4300
+RCVD SCHD 117 medium 0
+t:       1529 job   117 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1568 118 258 2 1400 3700
+RCVD SCHD 118 medium 0
+t:       1568 job   118 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       1587 job     9 on # 0 of server tiny COMPLETED
+t:       1587 job    11 on # 0 of server tiny RUNNING
+SENT JCPL 1587 9 tiny 0
+RCVD REDY
+SENT JOBN 1612 119 72398 2 700 1200
+RCVD SCHD 119 medium 0
+t:       1612 job   119 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1635 120 263 3 3200 300
+RCVD SCHD 120 medium 0
+t:       1635 job   120 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1695 121 1131 4 400 700
+RCVD SCHD 121 medium 0
+t:       1695 job   121 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       1741 job    11 on # 0 of server tiny COMPLETED
+t:       1741 job    15 on # 0 of server tiny RUNNING
+SENT JCPL 1741 11 tiny 0
+RCVD REDY
+SENT JOBN 1750 122 212 1 400 300
+RCVD SCHD 122 tiny 0
+t:       1750 job   122 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1761 123 1284 8 7600 4800
+RCVD SCHD 123 xlarge 0
+t:       1761 job   123 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1787 124 513 1 700 1200
+RCVD SCHD 124 tiny 0
+t:       1787 job   124 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1832 125 569 6 6000 4300
+RCVD SCHD 125 xlarge 0
+t:       1832 job   125 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1838 126 25 1 100 1100
+RCVD SCHD 126 tiny 0
+t:       1838 job   126 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1851 127 29911 5 1200 8400
+RCVD SCHD 127 xlarge 0
+t:       1851 job   127 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1854 128 27 3 1900 1300
+RCVD SCHD 128 medium 0
+t:       1854 job   128 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1859 129 265 3 500 5700
+RCVD SCHD 129 medium 0
+t:       1859 job   129 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1875 130 602 2 1200 800
+RCVD SCHD 130 medium 0
+t:       1875 job   130 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1891 131 22049 4 500 7300
+RCVD SCHD 131 medium 0
+t:       1891 job   131 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1904 132 237 2 1400 2000
+RCVD SCHD 132 medium 0
+t:       1904 job   132 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1904 133 60 2 1000 1500
+RCVD SCHD 133 medium 0
+t:       1904 job   133 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1908 134 122 4 4000 700
+RCVD SCHD 134 medium 0
+t:       1908 job   134 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1912 135 59 2 200 1800
+RCVD SCHD 135 medium 0
+t:       1912 job   135 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1912 136 8 2 1500 3300
+RCVD SCHD 136 medium 0
+t:       1912 job   136 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1916 137 141 2 1600 2600
+RCVD SCHD 137 medium 0
+t:       1916 job   137 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1924 138 224 2 800 4000
+RCVD SCHD 138 medium 0
+t:       1924 job   138 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1928 139 98 4 1300 700
+RCVD SCHD 139 medium 0
+t:       1928 job   139 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1932 140 65 1 700 800
+RCVD SCHD 140 tiny 0
+t:       1932 job   140 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1933 141 80 2 2000 1200
+RCVD SCHD 141 medium 0
+t:       1933 job   141 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1937 142 1414 2 2000 600
+RCVD SCHD 142 medium 0
+t:       1937 job   142 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1940 143 513 2 1500 3400
+RCVD SCHD 143 medium 0
+t:       1940 job   143 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1943 144 55 1 200 2000
+RCVD SCHD 144 tiny 0
+t:       1943 job   144 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1947 145 154 2 1900 900
+RCVD SCHD 145 medium 0
+t:       1947 job   145 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1950 146 228 1 900 1400
+RCVD SCHD 146 tiny 0
+t:       1950 job   146 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1954 147 337 3 1400 3300
+RCVD SCHD 147 medium 0
+t:       1954 job   147 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1956 148 292 1 100 100
+RCVD SCHD 148 tiny 0
+t:       1956 job   148 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1958 149 644 6 4500 5300
+RCVD SCHD 149 xlarge 0
+t:       1958 job   149 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1958 150 470 3 900 5900
+RCVD SCHD 150 medium 0
+t:       1958 job   150 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1960 151 1564 1 800 100
+RCVD SCHD 151 tiny 0
+t:       1960 job   151 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1969 152 1033 3 1400 6200
+RCVD SCHD 152 medium 0
+t:       1969 job   152 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1973 153 42590 1 900 1900
+RCVD SCHD 153 tiny 0
+t:       1973 job   153 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1973 154 213 2 1200 700
+RCVD SCHD 154 medium 0
+t:       1973 job   154 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1977 155 60 4 1500 6600
+RCVD SCHD 155 medium 0
+t:       1977 job   155 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1981 156 239 4 1700 6700
+RCVD SCHD 156 medium 0
+t:       1981 job   156 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1982 157 2273 1 1000 1500
+RCVD SCHD 157 tiny 0
+t:       1982 job   157 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1986 158 42473 3 300 4600
+RCVD SCHD 158 medium 0
+t:       1986 job   158 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1995 159 502 2 1700 1500
+RCVD SCHD 159 medium 0
+t:       1995 job   159 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2009 160 111 1 800 100
+RCVD SCHD 160 tiny 0
+t:       2009 job   160 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2030 161 859 1 600 900
+RCVD SCHD 161 tiny 0
+t:       2030 job   161 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2037 162 130 7 900 11700
+RCVD SCHD 162 xlarge 0
+t:       2037 job   162 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2060 163 111405 2 1300 500
+RCVD SCHD 163 medium 0
+t:       2060 job   163 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2096 164 75 2 600 1500
+RCVD SCHD 164 medium 0
+t:       2096 job   164 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2117 165 585 2 1900 1200
+RCVD SCHD 165 medium 0
+t:       2117 job   165 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2145 166 124 1 400 1700
+RCVD SCHD 166 tiny 0
+t:       2145 job   166 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2177 167 52561 1 600 500
+RCVD SCHD 167 tiny 0
+t:       2177 job   167 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2182 168 358 5 1400 9500
+RCVD SCHD 168 xlarge 0
+t:       2182 job   168 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2199 169 125111 6 900 3600
+RCVD SCHD 169 xlarge 0
+t:       2199 job   169 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2231 170 113027 1 800 1900
+RCVD SCHD 170 tiny 0
+t:       2231 job   170 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       2234 job    15 on # 0 of server tiny COMPLETED
+t:       2234 job    16 on # 0 of server tiny RUNNING
+SENT JCPL 2234 15 tiny 0
+RCVD REDY
+t:       2237 job    30 on # 0 of server xlarge COMPLETED
+t:       2237 job    34 on # 0 of server xlarge RUNNING
+SENT JCPL 2237 30 xlarge 0
+RCVD REDY
+SENT JOBN 2272 171 771 2 600 4100
+RCVD SCHD 171 medium 0
+t:       2272 job   171 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2293 172 3019 1 100 1800
+RCVD SCHD 172 tiny 0
+t:       2293 job   172 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2361 173 278 2 1100 3900
+RCVD SCHD 173 medium 0
+t:       2361 job   173 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       2369 job    34 on # 0 of server xlarge COMPLETED
+t:       2369 job    40 on # 0 of server xlarge RUNNING
+SENT JCPL 2369 34 xlarge 0
+RCVD REDY
+SENT JOBN 2439 174 9 2 1600 1500
+RCVD SCHD 174 medium 0
+t:       2439 job   174 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2440 175 122 2 1800 3800
+RCVD SCHD 175 medium 0
+t:       2440 job   175 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2455 176 485 1 500 1100
+RCVD SCHD 176 tiny 0
+t:       2455 job   176 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       2513 job    40 on # 0 of server xlarge COMPLETED
+t:       2513 job    42 on # 0 of server xlarge RUNNING
+SENT JCPL 2513 40 xlarge 0
+RCVD REDY
+SENT JOBN 2538 177 73 2 800 1500
+RCVD SCHD 177 medium 0
+t:       2538 job   177 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2584 178 248 1 500 1500
+RCVD SCHD 178 tiny 0
+t:       2584 job   178 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2587 179 751 1 900 1000
+RCVD SCHD 179 tiny 0
+t:       2587 job   179 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2590 180 131 1 500 1100
+RCVD SCHD 180 tiny 0
+t:       2590 job   180 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2609 181 111 1 500 300
+RCVD SCHD 181 tiny 0
+t:       2609 job   181 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2706 182 84169 10 14800 39100
+RCVD SCHD 182 xlarge 0
+t:       2706 job   182 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2707 183 1987 5 4400 5200
+RCVD SCHD 183 xlarge 0
+t:       2707 job   183 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2781 184 3012 2 1200 1900
+RCVD SCHD 184 medium 0
+t:       2781 job   184 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2801 185 186 1 400 300
+RCVD SCHD 185 tiny 0
+t:       2801 job   185 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2861 186 1166 2 1900 4000
+RCVD SCHD 186 medium 0
+t:       2861 job   186 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       2880 job     3 on # 0 of server medium COMPLETED
+SENT JCPL 2880 3 medium 0
+RCVD REDY
+SENT JOBN 2893 187 147 3 2600 5100
+RCVD SCHD 187 medium 0
+t:       2893 job   187 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2903 188 1080 7 1100 13800
+RCVD SCHD 188 xlarge 0
+t:       2903 job   188 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2975 189 302 4 1200 7100
+RCVD SCHD 189 medium 0
+t:       2975 job   189 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3025 190 534 2 1400 400
+RCVD SCHD 190 small 0
+t:       3025 job   190 (waiting) on # 0 of server small (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3039 191 403 2 1900 600
+RCVD SCHD 191 small 0
+t:       3039 job   191 (waiting) on # 0 of server small (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3066 192 309 1 600 2000
+RCVD SCHD 192 tiny 0
+t:       3066 job   192 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       3085 job   190 on # 0 of server small RUNNING
+t:       3103 job     2 on # 0 of server medium COMPLETED
+t:       3103 job     5 on # 0 of server medium RUNNING
+SENT JCPL 3103 2 medium 0
+RCVD REDY
+SENT JOBN 3125 193 32 2 400 4000
+RCVD SCHD 193 small 0
+t:       3125 job   193 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3165 194 230 1 700 900
+RCVD SCHD 194 tiny 0
+t:       3165 job   194 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3218 195 99 1 900 1000
+RCVD SCHD 195 tiny 0
+t:       3218 job   195 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3228 196 25 1 800 600
+RCVD SCHD 196 tiny 0
+t:       3228 job   196 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3229 197 55 8 3600 7100
+RCVD SCHD 197 xlarge 0
+t:       3229 job   197 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3237 198 494 2 800 2400
+RCVD SCHD 198 small 0
+t:       3237 job   198 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3241 199 28 1 400 1600
+RCVD SCHD 199 tiny 0
+t:       3241 job   199 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3254 200 467 3 2500 3900
+RCVD SCHD 200 medium 0
+t:       3254 job   200 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       3262 job     5 on # 0 of server medium COMPLETED
+t:       3262 job     6 on # 0 of server medium RUNNING
+SENT JCPL 3262 5 medium 0
+RCVD REDY
+SENT JOBN 3271 201 2 1 900 800
+RCVD SCHD 201 tiny 0
+t:       3271 job   201 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3272 202 177 2 2100 3700
+RCVD SCHD 202 small 0
+t:       3272 job   202 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3274 203 53 1 600 1800
+RCVD SCHD 203 tiny 0
+t:       3274 job   203 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3283 204 89 4 3300 7700
+RCVD SCHD 204 medium 0
+t:       3283 job   204 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3287 205 139 11 6300 24800
+RCVD SCHD 205 xlarge 0
+t:       3287 job   205 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3294 206 37 1 500 600
+RCVD SCHD 206 tiny 0
+t:       3294 job   206 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3295 207 3053 8 5200 2800
+RCVD SCHD 207 xlarge 0
+t:       3295 job   207 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3296 208 960 3 300 3100
+RCVD SCHD 208 medium 0
+t:       3296 job   208 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3300 209 128 3 3000 6000
+RCVD SCHD 209 medium 0
+t:       3300 job   209 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3303 210 1766 2 1800 800
+RCVD SCHD 210 small 0
+t:       3303 job   210 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3307 211 245 8 5200 12000
+RCVD SCHD 211 xlarge 0
+t:       3307 job   211 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3355 212 652 1 1000 800
+RCVD SCHD 212 tiny 0
+t:       3355 job   212 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3373 213 359 14 5100 41700
+RCVD SCHD 213 xlarge 0
+t:       3373 job   213 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3396 214 11 7 3700 11200
+RCVD SCHD 214 xlarge 0
+t:       3396 job   214 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       3436 job   190 on # 0 of server small COMPLETED
+t:       3436 job   191 on # 0 of server small RUNNING
+SENT JCPL 3436 190 small 0
+RCVD REDY
+SENT JOBN 3448 215 22829 3 1200 2200
+RCVD SCHD 215 medium 0
+t:       3448 job   215 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3457 216 20 2 1600 1000
+RCVD SCHD 216 small 0
+t:       3457 job   216 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3497 217 410 2 1600 2500
+RCVD SCHD 217 small 0
+t:       3497 job   217 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3551 218 146 4 900 5900
+RCVD SCHD 218 medium 0
+t:       3551 job   218 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3598 219 490 2 1200 2400
+RCVD SCHD 219 small 0
+t:       3598 job   219 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3618 220 504 3 1300 3800
+RCVD SCHD 220 medium 0
+t:       3618 job   220 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3686 221 112 2 700 3500
+RCVD SCHD 221 small 0
+t:       3686 job   221 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3690 222 460 3 800 4700
+RCVD SCHD 222 medium 0
+t:       3690 job   222 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       3694 job    16 on # 0 of server tiny COMPLETED
+t:       3694 job    25 on # 0 of server tiny RUNNING
+SENT JCPL 3694 16 tiny 0
+RCVD REDY
+t:       3745 job   191 on # 0 of server small COMPLETED
+t:       3745 job   193 on # 0 of server small RUNNING
+SENT JCPL 3745 191 small 0
+RCVD REDY
+SENT JOBN 3754 223 306 1 600 1200
+RCVD SCHD 223 tiny 0
+t:       3754 job   223 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       3779 job   193 on # 0 of server small COMPLETED
+t:       3779 job   198 on # 0 of server small RUNNING
+SENT JCPL 3779 193 small 0
+RCVD REDY
+SENT JOBN 3805 224 181 1 400 1900
+RCVD SCHD 224 tiny 0
+t:       3805 job   224 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3837 225 53270 1 500 600
+RCVD SCHD 225 tiny 0
+t:       3837 job   225 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3907 226 8 1 500 1100
+RCVD SCHD 226 tiny 0
+t:       3907 job   226 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 4006 227 45 2 800 2600
+RCVD SCHD 227 small 0
+t:       4006 job   227 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       4025 job     6 on # 0 of server medium COMPLETED
+t:       4025 job    10 on # 0 of server medium RUNNING
+t:       4025 job    12 on # 0 of server medium RUNNING
+SENT JCPL 4025 6 medium 0
+RCVD REDY
+t:       4031 job    12 on # 0 of server medium COMPLETED
+SENT JCPL 4031 12 medium 0
+RCVD REDY
+t:       4041 job   198 on # 0 of server small COMPLETED
+t:       4041 job   202 on # 0 of server small RUNNING
+SENT JCPL 4041 198 small 0
+RCVD REDY
+SENT JOBN 4072 228 34 1 100 1300
+RCVD SCHD 228 tiny 0
+t:       4072 job   228 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 4125 229 1567 3 1900 1800
+RCVD SCHD 229 medium 0
+t:       4125 job   229 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 4137 230 323 1 600 800
+RCVD SCHD 230 tiny 0
+t:       4137 job   230 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       4185 job    10 on # 0 of server medium COMPLETED
+t:       4185 job    13 on # 0 of server medium RUNNING
+SENT JCPL 4185 10 medium 0
+RCVD REDY
+SENT JOBN 4195 231 2129 2 600 2700
+RCVD SCHD 231 small 0
+t:       4195 job   231 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 4298 232 1369 3 2900 1300
+RCVD SCHD 232 medium 0
+t:       4298 job   232 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 4319 233 549 1 400 2000
+RCVD SCHD 233 tiny 0
+t:       4319 job   233 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       4395 job   202 on # 0 of server small COMPLETED
+t:       4395 job   210 on # 0 of server small RUNNING
+SENT JCPL 4395 202 small 0
+RCVD REDY
+SENT JOBN 4451 234 25 5 5100 8800
+RCVD SCHD 234 xlarge 0
+t:       4451 job   234 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       4470 job    25 on # 0 of server tiny COMPLETED
+t:       4470 job    33 on # 0 of server tiny RUNNING
+SENT JCPL 4470 25 tiny 0
+RCVD REDY
+SENT JOBN 4551 235 12 1 100 400
+RCVD SCHD 235 tiny 0
+t:       4551 job   235 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       4589 job    13 on # 0 of server medium COMPLETED
+t:       4589 job    14 on # 0 of server medium RUNNING
+SENT JCPL 4589 13 medium 0
+RCVD REDY
+SENT JOBN 4684 236 70 16 12300 51900
+RCVD SCHD 236 xlarge 0
+t:       4684 job   236 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 4824 237 109 1 100 200
+RCVD SCHD 237 tiny 0
+t:       4824 job   237 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       4829 job    14 on # 0 of server medium COMPLETED
+t:       4829 job    18 on # 0 of server medium RUNNING
+SENT JCPL 4829 14 medium 0
+RCVD REDY
+SENT JOBN 4846 238 6998 1 800 1900
+RCVD SCHD 238 tiny 0
+t:       4846 job   238 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       4876 job    18 on # 0 of server medium COMPLETED
+t:       4876 job    19 on # 0 of server medium RUNNING
+SENT JCPL 4876 18 medium 0
+RCVD REDY
+SENT JOBN 4961 239 2 7 2500 12800
+RCVD SCHD 239 xlarge 0
+t:       4961 job   239 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 5002 240 9086 3 400 2500
+RCVD SCHD 240 medium 0
+t:       5002 job   240 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 5023 241 589 1 500 1200
+RCVD SCHD 241 tiny 0
+t:       5023 job   241 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       5171 job    19 on # 0 of server medium COMPLETED
+t:       5171 job    20 on # 0 of server medium RUNNING
+SENT JCPL 5171 19 medium 0
+RCVD REDY
+SENT JOBN 5188 242 35956 1 800 1600
+RCVD SCHD 242 tiny 0
+t:       5188 job   242 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 5373 243 270 4 1100 3500
+RCVD SCHD 243 medium 0
+t:       5373 job   243 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 5374 244 234 3 2500 3900
+RCVD SCHD 244 medium 0
+t:       5374 job   244 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 5397 245 135 1 500 600
+RCVD SCHD 245 tiny 0
+t:       5397 job   245 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 5583 246 412 2 600 2400
+RCVD SCHD 246 small 0
+t:       5583 job   246 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       5639 job    20 on # 0 of server medium COMPLETED
+t:       5639 job    21 on # 0 of server medium RUNNING
+SENT JCPL 5639 20 medium 0
+RCVD REDY
+SENT JOBN 5645 247 140 8 8300 13800
+RCVD SCHD 247 xlarge 0
+t:       5645 job   247 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 5651 248 219 7 6900 4000
+RCVD SCHD 248 xlarge 0
+t:       5651 job   248 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 5734 249 4457 2 2000 3000
+RCVD SCHD 249 small 0
+t:       5734 job   249 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 5751 250 912 3 2300 5000
+RCVD SCHD 250 medium 0
+t:       5751 job   250 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       5805 job    21 on # 0 of server medium COMPLETED
+t:       5805 job    22 on # 0 of server medium RUNNING
+SENT JCPL 5805 21 medium 0
+RCVD REDY
+SENT JOBN 5904 251 141 1 600 900
+RCVD SCHD 251 tiny 0
+t:       5904 job   251 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 6078 252 1 1 1000 700
+RCVD SCHD 252 tiny 0
+t:       6078 job   252 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       6183 job   210 on # 0 of server small COMPLETED
+t:       6183 job   216 on # 0 of server small RUNNING
+SENT JCPL 6183 210 small 0
+RCVD REDY
+SENT JOBN 6184 253 176 2 1500 2600
+RCVD SCHD 253 small 0
+t:       6184 job   253 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 6192 254 530 6 5800 4800
+RCVD SCHD 254 xlarge 0
+t:       6192 job   254 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       6204 job   216 on # 0 of server small COMPLETED
+t:       6204 job   217 on # 0 of server small RUNNING
+SENT JCPL 6204 216 small 0
+RCVD REDY
+SENT JOBN 6284 255 143 1 600 2000
+RCVD SCHD 255 tiny 0
+t:       6284 job   255 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 6409 256 21 4 1400 8000
+RCVD SCHD 256 medium 0
+t:       6409 job   256 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       6590 job   217 on # 0 of server small COMPLETED
+t:       6590 job   219 on # 0 of server small RUNNING
+SENT JCPL 6590 217 small 0
+RCVD REDY
+SENT JOBN 6655 257 41 1 500 600
+RCVD SCHD 257 tiny 0
+t:       6655 job   257 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       6859 job   219 on # 0 of server small COMPLETED
+t:       6859 job   221 on # 0 of server small RUNNING
+SENT JCPL 6859 219 small 0
+RCVD REDY
+SENT JOBN 6859 258 35 1 700 1300
+RCVD SCHD 258 tiny 0
+t:       6859 job   258 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 6963 259 359 2 800 600
+RCVD SCHD 259 small 0
+t:       6963 job   259 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       6964 job   221 on # 0 of server small COMPLETED
+t:       6964 job   227 on # 0 of server small RUNNING
+SENT JCPL 6964 221 small 0
+RCVD REDY
+SENT JOBN 7159 260 1516 6 2100 9900
+RCVD SCHD 260 xlarge 0
+t:       7159 job   260 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       7289 job    22 on # 0 of server medium COMPLETED
+t:       7289 job    23 on # 0 of server medium RUNNING
+t:       7289 job    27 on # 0 of server medium RUNNING
+SENT JCPL 7289 22 medium 0
+RCVD REDY
+SENT JOBN 7343 261 1158 2 1800 700
+RCVD SCHD 261 small 0
+t:       7343 job   261 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       7509 job   227 on # 0 of server small COMPLETED
+t:       7509 job   231 on # 0 of server small RUNNING
+SENT JCPL 7509 227 small 0
+RCVD REDY
+SENT JOBN 7558 262 731 5 3400 7000
+RCVD SCHD 262 xlarge 0
+t:       7558 job   262 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 7633 263 1370 7 3700 3300
+RCVD SCHD 263 xlarge 0
+t:       7633 job   263 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 7755 264 120 3 300 1600
+RCVD SCHD 264 medium 0
+t:       7755 job   264 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 7970 265 93 1 400 1800
+RCVD SCHD 265 tiny 0
+t:       7970 job   265 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 8035 266 112 2 1900 1300
+RCVD SCHD 266 small 0
+t:       8035 job   266 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 8189 267 26771 4 800 400
+RCVD SCHD 267 medium 0
+t:       8189 job   267 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 8313 268 229 15 29300 48400
+RCVD SCHD 268 xlarge 0
+t:       8313 job   268 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 8394 269 109719 1 600 100
+RCVD SCHD 269 tiny 0
+t:       8394 job   269 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 8497 270 84 2 300 1000
+RCVD SCHD 270 small 0
+t:       8497 job   270 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 8640 271 66 1 300 1600
+RCVD SCHD 271 tiny 0
+t:       8640 job   271 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 8797 272 63577 2 1600 600
+RCVD SCHD 272 small 0
+t:       8797 job   272 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 8958 273 13 3 1100 5700
+RCVD SCHD 273 medium 0
+t:       8958 job   273 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 9138 274 161 2 600 3000
+RCVD SCHD 274 small 0
+t:       9138 job   274 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 9204 275 4 1 1000 200
+RCVD SCHD 275 tiny 0
+t:       9204 job   275 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 9319 276 230 4 2500 6500
+RCVD SCHD 276 medium 0
+t:       9319 job   276 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 9436 277 1143 1 600 900
+RCVD SCHD 277 tiny 0
+t:       9436 job   277 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 9564 278 62 10 4300 3500
+RCVD SCHD 278 xlarge 0
+t:       9564 job   278 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 9748 279 107 5 800 7900
+RCVD SCHD 279 xlarge 0
+t:       9748 job   279 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 9920 280 1363 1 200 700
+RCVD SCHD 280 tiny 0
+t:       9920 job   280 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 9943 281 226 5 4400 6000
+RCVD SCHD 281 xlarge 0
+t:       9943 job   281 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 10074 282 88 1 1000 1800
+RCVD SCHD 282 tiny 0
+t:      10074 job   282 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 10124 283 62 1 100 200
+RCVD SCHD 283 tiny 0
+t:      10124 job   283 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 10237 284 162 3 2700 2200
+RCVD SCHD 284 medium 0
+t:      10237 job   284 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 10377 285 32 1 200 1500
+RCVD SCHD 285 tiny 0
+t:      10377 job   285 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 10446 286 239 1 800 900
+RCVD SCHD 286 tiny 0
+t:      10446 job   286 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      10534 job   231 on # 0 of server small COMPLETED
+t:      10534 job   246 on # 0 of server small RUNNING
+SENT JCPL 10534 231 small 0
+RCVD REDY
+SENT JOBN 10570 287 119 2 800 2500
+RCVD SCHD 287 small 0
+t:      10570 job   287 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 10687 288 122 3 2400 1800
+RCVD SCHD 288 medium 0
+t:      10687 job   288 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      10772 job   246 on # 0 of server small COMPLETED
+t:      10772 job   249 on # 0 of server small RUNNING
+SENT JCPL 10772 246 small 0
+RCVD REDY
+SENT JOBN 10807 289 36 1 600 600
+RCVD SCHD 289 tiny 0
+t:      10807 job   289 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 10807 290 348 13 11500 41600
+RCVD SCHD 290 xlarge 0
+t:      10807 job   290 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 10807 291 93 13 12600 16700
+RCVD SCHD 291 xlarge 0
+t:      10807 job   291 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 10807 292 109761 12 4500 7400
+RCVD SCHD 292 xlarge 0
+t:      10807 job   292 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 10807 293 71975 16 1800 45100
+RCVD SCHD 293 xlarge 0
+t:      10807 job   293 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 10877 294 1606 8 6400 4100
+RCVD SCHD 294 xlarge 0
+t:      10877 job   294 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 11213 295 53 2 1500 1800
+RCVD SCHD 295 small 0
+t:      11213 job   295 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 11261 296 797 1 100 2000
+RCVD SCHD 296 tiny 0
+t:      11261 job   296 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 11318 297 56 5 900 600
+RCVD SCHD 297 xlarge 0
+t:      11318 job   297 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 11360 298 220 1 500 300
+RCVD SCHD 298 tiny 0
+t:      11360 job   298 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 11447 299 23719 2 1500 800
+RCVD SCHD 299 small 0
+t:      11447 job   299 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 11472 300 2013 4 1800 1000
+RCVD SCHD 300 medium 0
+t:      11472 job   300 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 11488 301 88 12 20700 29600
+RCVD SCHD 301 xlarge 0
+t:      11488 job   301 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 11614 302 675 4 3200 5400
+RCVD SCHD 302 medium 0
+t:      11614 job   302 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 11626 303 259 2 800 2700
+RCVD SCHD 303 small 0
+t:      11626 job   303 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 11658 304 393 1 900 200
+RCVD SCHD 304 tiny 0
+t:      11658 job   304 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 11745 305 1160 4 2900 7500
+RCVD SCHD 305 medium 0
+t:      11745 job   305 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 11778 306 2191 2 700 2600
+RCVD SCHD 306 small 0
+t:      11778 job   306 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 11865 307 2820 2 200 2400
+RCVD SCHD 307 small 0
+t:      11865 job   307 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 11997 308 138 1 900 300
+RCVD SCHD 308 tiny 0
+t:      11997 job   308 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 12106 309 159 1 300 1400
+RCVD SCHD 309 tiny 0
+t:      12106 job   309 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 12173 310 80 2 2100 2700
+RCVD SCHD 310 small 0
+t:      12173 job   310 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 12333 311 1813 1 600 500
+RCVD SCHD 311 tiny 0
+t:      12333 job   311 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 12359 312 422 2 900 2800
+RCVD SCHD 312 small 0
+t:      12359 job   312 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 12510 313 422 1 900 1700
+RCVD SCHD 313 tiny 0
+t:      12510 job   313 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 12590 314 53687 1 400 1500
+RCVD SCHD 314 tiny 0
+t:      12590 job   314 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 12668 315 560 3 1800 3500
+RCVD SCHD 315 medium 0
+t:      12668 job   315 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 12700 316 3156 2 900 4100
+RCVD SCHD 316 small 0
+t:      12700 job   316 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 12784 317 86 16 18800 30800
+RCVD SCHD 317 xlarge 0
+t:      12784 job   317 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 12943 318 1702 2 2000 1100
+RCVD SCHD 318 small 0
+t:      12943 job   318 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 13094 319 413 6 3700 7600
+RCVD SCHD 319 xlarge 0
+t:      13094 job   319 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 13260 320 494 1 200 1800
+RCVD SCHD 320 tiny 0
+t:      13260 job   320 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      13328 job    27 on # 0 of server medium COMPLETED
+t:      13328 job    28 on # 0 of server medium RUNNING
+SENT JCPL 13328 27 medium 0
+RCVD REDY
+SENT JOBN 13433 321 753 3 1200 4400
+RCVD SCHD 321 medium 0
+t:      13433 job   321 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 13603 322 46 1 900 900
+RCVD SCHD 322 tiny 0
+t:      13603 job   322 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 13737 323 689 4 4200 8000
+RCVD SCHD 323 medium 0
+t:      13737 job   323 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 13759 324 959 8 6900 8800
+RCVD SCHD 324 xlarge 0
+t:      13759 job   324 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 13901 325 145 7 2400 2800
+RCVD SCHD 325 xlarge 0
+t:      13901 job   325 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 14041 326 1482 2 1400 4000
+RCVD SCHD 326 small 0
+t:      14041 job   326 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 14219 327 1764 12 16000 23300
+RCVD SCHD 327 xlarge 0
+t:      14219 job   327 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 14425 328 44 2 900 2700
+RCVD SCHD 328 small 0
+t:      14425 job   328 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 14519 329 235 15 27200 53600
+RCVD SCHD 329 xlarge 0
+t:      14519 job   329 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 14707 330 51 1 1000 100
+RCVD SCHD 330 tiny 0
+t:      14707 job   330 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      14719 job    28 on # 0 of server medium COMPLETED
+t:      14719 job    32 on # 0 of server medium RUNNING
+SENT JCPL 14719 28 medium 0
+RCVD REDY
+SENT JOBN 14845 331 221 2 400 3600
+RCVD SCHD 331 small 0
+t:      14845 job   331 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 15070 332 298 4 2100 6600
+RCVD SCHD 332 medium 0
+t:      15070 job   332 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 15120 333 156 2 500 1100
+RCVD SCHD 333 small 0
+t:      15120 job   333 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 15382 334 1367 1 400 1500
+RCVD SCHD 334 tiny 0
+t:      15382 job   334 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 15574 335 690 2 1200 300
+RCVD SCHD 335 small 0
+t:      15574 job   335 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 15672 336 1 1 100 1200
+RCVD SCHD 336 tiny 0
+t:      15672 job   336 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 15763 337 102012 1 200 600
+RCVD SCHD 337 tiny 0
+t:      15763 job   337 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 16009 338 356 2 1300 1700
+RCVD SCHD 338 small 0
+t:      16009 job   338 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 16255 339 17 2 200 3400
+RCVD SCHD 339 small 0
+t:      16255 job   339 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 16529 340 308 1 700 2000
+RCVD SCHD 340 tiny 0
+t:      16529 job   340 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 16763 341 77 2 900 3400
+RCVD SCHD 341 small 0
+t:      16763 job   341 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 16866 342 181 2 2000 1400
+RCVD SCHD 342 small 0
+t:      16866 job   342 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 17150 343 1390 6 4400 12500
+RCVD SCHD 343 xlarge 0
+t:      17150 job   343 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 17477 344 369 2 1200 2300
+RCVD SCHD 344 small 0
+t:      17477 job   344 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 17619 345 427 4 2900 1100
+RCVD SCHD 345 medium 0
+t:      17619 job   345 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 17758 346 14 4 3300 5300
+RCVD SCHD 346 medium 0
+t:      17758 job   346 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 17891 347 55601 3 3000 1400
+RCVD SCHD 347 medium 0
+t:      17891 job   347 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 18114 348 78 1 100 1000
+RCVD SCHD 348 tiny 0
+t:      18114 job   348 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 18206 349 1296 5 2300 6100
+RCVD SCHD 349 xlarge 0
+t:      18206 job   349 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 18474 350 557 4 800 6000
+RCVD SCHD 350 medium 0
+t:      18474 job   350 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 18797 351 6569 8 4300 1800
+RCVD SCHD 351 xlarge 0
+t:      18797 job   351 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 19046 352 2396 4 3000 2700
+RCVD SCHD 352 medium 0
+t:      19046 job   352 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 19264 353 43213 3 2600 1200
+RCVD SCHD 353 medium 0
+t:      19264 job   353 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 19503 354 2928 1 900 1900
+RCVD SCHD 354 tiny 0
+t:      19503 job   354 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 19664 355 37068 1 200 600
+RCVD SCHD 355 tiny 0
+t:      19664 job   355 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 19787 356 539 1 400 200
+RCVD SCHD 356 tiny 0
+t:      19787 job   356 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 19986 357 495 1 200 500
+RCVD SCHD 357 tiny 0
+t:      19986 job   357 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 20090 358 335 1 500 1200
+RCVD SCHD 358 tiny 0
+t:      20090 job   358 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 20096 359 551 7 7000 6500
+RCVD SCHD 359 xlarge 0
+t:      20096 job   359 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 21002 360 190 8 8500 800
+RCVD SCHD 360 xlarge 0
+t:      21002 job   360 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 21499 361 102 4 1900 6400
+RCVD SCHD 361 medium 0
+t:      21499 job   361 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 21947 362 91 2 1600 3200
+RCVD SCHD 362 small 0
+t:      21947 job   362 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 22101 363 502 7 7500 4100
+RCVD SCHD 363 xlarge 0
+t:      22101 job   363 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 22340 364 74 1 300 1200
+RCVD SCHD 364 tiny 0
+t:      22340 job   364 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 22680 365 136 1 800 1400
+RCVD SCHD 365 tiny 0
+t:      22680 job   365 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 22821 366 7303 8 7200 15200
+RCVD SCHD 366 xlarge 0
+t:      22821 job   366 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 22872 367 691 4 500 6000
+RCVD SCHD 367 medium 0
+t:      22872 job   367 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 23504 368 50 8 5300 11200
+RCVD SCHD 368 xlarge 0
+t:      23504 job   368 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 23928 369 68417 2 1400 1900
+RCVD SCHD 369 small 0
+t:      23928 job   369 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 24058 370 1 3 2600 4400
+RCVD SCHD 370 medium 0
+t:      24058 job   370 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 24308 371 52 2 1000 2000
+RCVD SCHD 371 small 0
+t:      24308 job   371 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 24457 372 57 2 600 3100
+RCVD SCHD 372 small 0
+t:      24457 job   372 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 24942 373 143 1 700 1900
+RCVD SCHD 373 tiny 0
+t:      24942 job   373 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 25417 374 236 2 400 1800
+RCVD SCHD 374 small 0
+t:      25417 job   374 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 25547 375 729 2 300 2200
+RCVD SCHD 375 small 0
+t:      25547 job   375 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 26052 376 50 2 1900 2000
+RCVD SCHD 376 small 0
+t:      26052 job   376 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 26492 377 924 7 2100 7500
+RCVD SCHD 377 xlarge 0
+t:      26492 job   377 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 26620 378 21828 1 400 1800
+RCVD SCHD 378 tiny 0
+t:      26620 job   378 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 27340 379 783 1 100 1300
+RCVD SCHD 379 tiny 0
+t:      27340 job   379 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 27354 380 241 2 1900 2000
+RCVD SCHD 380 small 0
+t:      27354 job   380 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 27435 381 656 1 300 1900
+RCVD SCHD 381 tiny 0
+t:      27435 job   381 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 27878 382 106006 8 1900 7900
+RCVD SCHD 382 xlarge 0
+t:      27878 job   382 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 30997 383 140 6 5800 5800
+RCVD SCHD 383 xlarge 0
+t:      30997 job   383 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 31487 384 57 1 100 1600
+RCVD SCHD 384 tiny 0
+t:      31487 job   384 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 31817 385 22 1 900 1800
+RCVD SCHD 385 tiny 0
+t:      31817 job   385 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 32374 386 69 13 13800 23900
+RCVD SCHD 386 xlarge 0
+t:      32374 job   386 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 32860 387 5 1 900 300
+RCVD SCHD 387 tiny 0
+t:      32860 job   387 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 33012 388 14 10 5100 7600
+RCVD SCHD 388 xlarge 0
+t:      33012 job   388 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 33652 389 13 1 100 1500
+RCVD SCHD 389 tiny 0
+t:      33652 job   389 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 33838 390 149 1 400 1600
+RCVD SCHD 390 tiny 0
+t:      33838 job   390 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 33993 391 1571 15 3000 4600
+RCVD SCHD 391 xlarge 0
+t:      33993 job   391 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 34572 392 888 3 1100 3800
+RCVD SCHD 392 medium 0
+t:      34572 job   392 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 35263 393 55 7 3600 10300
+RCVD SCHD 393 xlarge 0
+t:      35263 job   393 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 35644 394 3149 8 5800 15200
+RCVD SCHD 394 xlarge 0
+t:      35644 job   394 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      36115 job    31 on # 0 of server xlarge COMPLETED
+t:      36115 job    43 on # 0 of server xlarge RUNNING
+SENT JCPL 36115 31 xlarge 0
+RCVD REDY
+t:      36250 job    43 on # 0 of server xlarge COMPLETED
+t:      36250 job    44 on # 0 of server xlarge RUNNING
+SENT JCPL 36250 43 xlarge 0
+RCVD REDY
+t:      36322 job    44 on # 0 of server xlarge COMPLETED
+t:      36322 job    53 on # 0 of server xlarge RUNNING
+SENT JCPL 36322 44 xlarge 0
+RCVD REDY
+SENT JOBN 36323 395 763 1 300 900
+RCVD SCHD 395 tiny 0
+t:      36323 job   395 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      36355 job    53 on # 0 of server xlarge COMPLETED
+t:      36355 job    54 on # 0 of server xlarge RUNNING
+SENT JCPL 36355 53 xlarge 0
+RCVD REDY
+SENT JOBN 36414 396 725 2 400 2800
+RCVD SCHD 396 small 0
+t:      36414 job   396 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 36572 397 376 4 400 3600
+RCVD SCHD 397 medium 0
+t:      36572 job   397 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 36690 398 183 5 2200 10100
+RCVD SCHD 398 xlarge 0
+t:      36690 job   398 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 37266 399 584 1 900 1400
+RCVD SCHD 399 tiny 0
+t:      37266 job   399 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 37758 400 86 4 2300 6800
+RCVD SCHD 400 medium 0
+t:      37758 job   400 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      37836 job    54 on # 0 of server xlarge COMPLETED
+t:      37836 job    58 on # 0 of server xlarge RUNNING
+SENT JCPL 37836 54 xlarge 0
+RCVD REDY
+SENT JOBN 37844 401 1492 2 1600 3600
+RCVD SCHD 401 small 0
+t:      37844 job   401 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 37885 402 89 1 500 600
+RCVD SCHD 402 tiny 0
+t:      37885 job   402 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 38033 403 103 1 700 700
+RCVD SCHD 403 tiny 0
+t:      38033 job   403 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 38729 404 211 2 1900 700
+RCVD SCHD 404 small 0
+t:      38729 job   404 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      38914 job   249 on # 0 of server small COMPLETED
+t:      38914 job   253 on # 0 of server small RUNNING
+SENT JCPL 38914 249 small 0
+RCVD REDY
+t:      39046 job   253 on # 0 of server small COMPLETED
+t:      39046 job   259 on # 0 of server small RUNNING
+SENT JCPL 39046 253 small 0
+RCVD REDY
+SENT JOBN 39071 405 17 3 2800 5500
+RCVD SCHD 405 medium 0
+t:      39071 job   405 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 39425 406 72 2 200 600
+RCVD SCHD 406 small 0
+t:      39425 job   406 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 39457 407 128 1 400 1500
+RCVD SCHD 407 tiny 0
+t:      39457 job   407 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 39731 408 1218 1 800 1300
+RCVD SCHD 408 tiny 0
+t:      39731 job   408 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      39780 job   259 on # 0 of server small COMPLETED
+t:      39780 job   261 on # 0 of server small RUNNING
+SENT JCPL 39780 259 small 0
+RCVD REDY
+t:      40124 job    32 on # 0 of server medium COMPLETED
+SENT JCPL 40124 32 medium 0
+RCVD REDY
+SENT JOBN 40198 409 326 2 1300 3900
+RCVD SCHD 409 small 0
+t:      40198 job   409 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 40458 410 834 4 2400 4600
+RCVD SCHD 410 medium 0
+t:      40458 job   410 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 40756 411 409 2 600 2800
+RCVD SCHD 411 small 0
+t:      40756 job   411 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      41377 job   261 on # 0 of server small COMPLETED
+t:      41377 job   266 on # 0 of server small RUNNING
+SENT JCPL 41377 261 small 0
+RCVD REDY
+SENT JOBN 41389 412 2 4 2100 6000
+RCVD SCHD 412 medium 0
+t:      41389 job   412 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      41523 job   266 on # 0 of server small COMPLETED
+t:      41523 job   270 on # 0 of server small RUNNING
+SENT JCPL 41523 266 small 0
+RCVD REDY
+t:      41574 job   270 on # 0 of server small COMPLETED
+t:      41574 job   272 on # 0 of server small RUNNING
+SENT JCPL 41574 270 small 0
+RCVD REDY
+SENT JOBN 41861 413 491 1 900 1300
+RCVD SCHD 413 tiny 0
+t:      41861 job   413 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 42226 414 87 1 1000 800
+RCVD SCHD 414 tiny 0
+t:      42226 job   414 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 43006 415 444 1 300 100
+RCVD SCHD 415 tiny 0
+t:      43006 job   415 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 43233 416 44229 3 1700 3900
+RCVD SCHD 416 medium 0
+t:      43233 job   416 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 43331 417 43 2 1800 300
+RCVD SCHD 417 small 0
+t:      43331 job   417 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 44076 418 111 1 700 400
+RCVD SCHD 418 tiny 0
+t:      44076 job   418 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 44758 419 284 6 4900 2000
+RCVD SCHD 419 xlarge 0
+t:      44758 job   419 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 45167 420 222 1 100 600
+RCVD SCHD 420 tiny 0
+t:      45167 job   420 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 45977 421 2954 1 1000 300
+RCVD SCHD 421 tiny 0
+t:      45977 job   421 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 46350 422 579 4 2300 3100
+RCVD SCHD 422 medium 0
+t:      46350 job   422 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 46790 423 2634 2 1000 2200
+RCVD SCHD 423 small 0
+t:      46790 job   423 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 47071 424 105654 4 400 800
+RCVD SCHD 424 medium 0
+t:      47071 job   424 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 47592 425 4 11 13300 17400
+RCVD SCHD 425 xlarge 0
+t:      47592 job   425 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 48165 426 1 1 900 500
+RCVD SCHD 426 tiny 0
+t:      48165 job   426 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 48415 427 53 2 2100 2300
+RCVD SCHD 427 small 0
+t:      48415 job   427 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 48783 428 2325 3 3000 2500
+RCVD SCHD 428 medium 0
+t:      48783 job   428 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 49597 429 4 1 900 700
+RCVD SCHD 429 tiny 0
+t:      49597 job   429 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 49973 430 435 4 3400 1100
+RCVD SCHD 430 medium 0
+t:      49973 job   430 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 50031 431 2370 1 800 1600
+RCVD SCHD 431 tiny 0
+t:      50031 job   431 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 50209 432 422 2 700 300
+RCVD SCHD 432 small 0
+t:      50209 job   432 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 51014 433 3 8 1000 9700
+RCVD SCHD 433 xlarge 0
+t:      51014 job   433 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 51682 434 1504 1 100 1300
+RCVD SCHD 434 tiny 0
+t:      51682 job   434 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 52520 435 84 1 300 1000
+RCVD SCHD 435 tiny 0
+t:      52520 job   435 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 52702 436 8 1 700 1500
+RCVD SCHD 436 tiny 0
+t:      52702 job   436 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 53167 437 277 1 700 1800
+RCVD SCHD 437 tiny 0
+t:      53167 job   437 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 53296 438 10 1 400 2000
+RCVD SCHD 438 tiny 0
+t:      53296 job   438 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 53723 439 135 3 3100 2300
+RCVD SCHD 439 medium 0
+t:      53723 job   439 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 53921 440 516 1 1000 700
+RCVD SCHD 440 tiny 0
+t:      53921 job   440 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 54315 441 169 1 100 400
+RCVD SCHD 441 tiny 0
+t:      54315 job   441 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 54867 442 35 1 400 100
+RCVD SCHD 442 tiny 0
+t:      54867 job   442 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 55258 443 705 7 5400 13200
+RCVD SCHD 443 xlarge 0
+t:      55258 job   443 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 55802 444 197 4 1400 3000
+RCVD SCHD 444 medium 0
+t:      55802 job   444 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 56463 445 12 1 900 600
+RCVD SCHD 445 tiny 0
+t:      56463 job   445 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 57321 446 457 8 2500 800
+RCVD SCHD 446 xlarge 0
+t:      57321 job   446 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 57768 447 22 2 1800 2300
+RCVD SCHD 447 small 0
+t:      57768 job   447 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 58338 448 84204 1 800 900
+RCVD SCHD 448 tiny 0
+t:      58338 job   448 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 59130 449 862 3 2900 4100
+RCVD SCHD 449 medium 0
+t:      59130 job   449 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 59796 450 554 3 2400 900
+RCVD SCHD 450 medium 0
+t:      59796 job   450 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 60156 451 77 1 700 500
+RCVD SCHD 451 tiny 0
+t:      60156 job   451 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 60280 452 332 7 1000 4300
+RCVD SCHD 452 xlarge 0
+t:      60280 job   452 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 60912 453 171 11 9800 11600
+RCVD SCHD 453 xlarge 0
+t:      60912 job   453 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 61530 454 4834 2 1400 2400
+RCVD SCHD 454 small 0
+t:      61530 job   454 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 61772 455 66 1 500 2000
+RCVD SCHD 455 tiny 0
+t:      61772 job   455 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 61840 456 1198 2 1300 1000
+RCVD SCHD 456 small 0
+t:      61840 job   456 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 62711 457 39 5 5200 1900
+RCVD SCHD 457 xlarge 0
+t:      62711 job   457 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 62862 458 43 2 2000 3100
+RCVD SCHD 458 small 0
+t:      62862 job   458 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 63234 459 29 2 900 1800
+RCVD SCHD 459 small 0
+t:      63234 job   459 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 63935 460 11 2 1200 1900
+RCVD SCHD 460 small 0
+t:      63935 job   460 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 64489 461 138 7 6600 10900
+RCVD SCHD 461 xlarge 0
+t:      64489 job   461 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 64760 462 40 4 2600 8300
+RCVD SCHD 462 medium 0
+t:      64760 job   462 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 65199 463 6 2 800 1800
+RCVD SCHD 463 small 0
+t:      65199 job   463 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 66141 464 149 4 1400 2200
+RCVD SCHD 464 medium 0
+t:      66141 job   464 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 66501 465 69366 2 1700 600
+RCVD SCHD 465 small 0
+t:      66501 job   465 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 66963 466 27264 1 1000 1300
+RCVD SCHD 466 tiny 0
+t:      66963 job   466 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 67820 467 27 4 2100 5000
+RCVD SCHD 467 medium 0
+t:      67820 job   467 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 67919 468 222 3 2000 4300
+RCVD SCHD 468 medium 0
+t:      67919 job   468 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 68542 469 877 6 6500 1100
+RCVD SCHD 469 xlarge 0
+t:      68542 job   469 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 69362 470 1218 1 100 1800
+RCVD SCHD 470 tiny 0
+t:      69362 job   470 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 69537 471 221 4 3000 5300
+RCVD SCHD 471 medium 0
+t:      69537 job   471 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 69551 472 28 1 200 500
+RCVD SCHD 472 tiny 0
+t:      69551 job   472 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 69558 473 27 2 500 1100
+RCVD SCHD 473 small 0
+t:      69558 job   473 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 69616 474 322 1 800 800
+RCVD SCHD 474 tiny 0
+t:      69616 job   474 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      70129 job    42 on # 0 of server xlarge COMPLETED
+t:      70129 job    63 on # 0 of server xlarge RUNNING
+SENT JCPL 70129 42 xlarge 0
+RCVD REDY
+t:      70407 job    63 on # 0 of server xlarge COMPLETED
+t:      70407 job    64 on # 0 of server xlarge RUNNING
+SENT JCPL 70407 63 xlarge 0
+RCVD REDY
+t:      70508 job    64 on # 0 of server xlarge COMPLETED
+t:      70508 job    71 on # 0 of server xlarge RUNNING
+SENT JCPL 70508 64 xlarge 0
+RCVD REDY
+SENT JOBN 70537 475 3099 14 9000 32500
+RCVD SCHD 475 xlarge 0
+t:      70537 job   475 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      71000 job    71 on # 0 of server xlarge COMPLETED
+t:      71000 job    76 on # 0 of server xlarge RUNNING
+SENT JCPL 71000 71 xlarge 0
+RCVD REDY
+SENT JOBN 71294 476 30 1 500 2000
+RCVD SCHD 476 tiny 0
+t:      71294 job   476 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71829 477 31 3 1200 5200
+RCVD SCHD 477 medium 0
+t:      71829 job   477 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71868 478 425 6 4100 3200
+RCVD SCHD 478 xlarge 0
+t:      71868 job   478 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71868 479 297 16 23600 24300
+RCVD SCHD 479 xlarge 0
+t:      71868 job   479 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71868 480 1008 12 17400 10400
+RCVD SCHD 480 xlarge 0
+t:      71868 job   480 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71873 481 834 2 2000 200
+RCVD SCHD 481 small 0
+t:      71873 job   481 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71883 482 18 5 1600 2300
+RCVD SCHD 482 xlarge 0
+t:      71883 job   482 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71883 483 23 2 2100 3300
+RCVD SCHD 483 small 0
+t:      71883 job   483 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71885 484 400 2 500 1800
+RCVD SCHD 484 small 0
+t:      71885 job   484 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71890 485 80 7 7100 10000
+RCVD SCHD 485 xlarge 0
+t:      71890 job   485 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71892 486 1247 3 2200 5200
+RCVD SCHD 486 medium 0
+t:      71892 job   486 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71898 487 2 2 1200 1800
+RCVD SCHD 487 small 0
+t:      71898 job   487 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71903 488 19 2 800 3500
+RCVD SCHD 488 small 0
+t:      71903 job   488 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71916 489 57 3 1500 4800
+RCVD SCHD 489 medium 0
+t:      71916 job   489 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71934 490 627 1 600 700
+RCVD SCHD 490 tiny 0
+t:      71934 job   490 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71948 491 83 1 100 800
+RCVD SCHD 491 tiny 0
+t:      71948 job   491 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71970 492 194 1 600 1500
+RCVD SCHD 492 tiny 0
+t:      71970 job   492 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71996 493 587 2 1700 1000
+RCVD SCHD 493 small 0
+t:      71996 job   493 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 72021 494 375 4 500 7400
+RCVD SCHD 494 medium 0
+t:      72021 job   494 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 72026 495 97 5 4300 7800
+RCVD SCHD 495 xlarge 0
+t:      72026 job   495 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 72064 496 478 1 600 500
+RCVD SCHD 496 tiny 0
+t:      72064 job   496 (waiting) on # 0 of server tiny (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 72076 497 9 4 2100 6800
+RCVD SCHD 497 medium 0
+t:      72076 job   497 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 72130 498 363 4 2200 1900
+RCVD SCHD 498 medium 0
+t:      72130 job   498 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 72133 499 15 2 1800 200
+RCVD SCHD 499 small 0
+t:      72133 job   499 (waiting) on # 0 of server small (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      72554 job    76 on # 0 of server xlarge COMPLETED
+SENT JCPL 72554 76 xlarge 0
+RCVD REDY
+t:      74206 job    33 on # 0 of server tiny COMPLETED
+t:      74206 job    38 on # 0 of server tiny RUNNING
+SENT JCPL 74206 33 tiny 0
+RCVD REDY
+t:      74479 job    38 on # 0 of server tiny COMPLETED
+t:      74479 job    39 on # 0 of server tiny RUNNING
+SENT JCPL 74479 38 tiny 0
+RCVD REDY
+t:      74613 job    39 on # 0 of server tiny COMPLETED
+t:      74613 job    41 on # 0 of server tiny RUNNING
+SENT JCPL 74613 39 tiny 0
+RCVD REDY
+t:      75607 job    41 on # 0 of server tiny COMPLETED
+t:      75607 job    51 on # 0 of server tiny RUNNING
+SENT JCPL 75607 41 tiny 0
+RCVD REDY
+t:      76307 job    51 on # 0 of server tiny COMPLETED
+t:      76307 job    57 on # 0 of server tiny RUNNING
+SENT JCPL 76307 51 tiny 0
+RCVD REDY
+t:      91067 job    23 on # 0 of server medium COMPLETED
+t:      91067 job    35 on # 0 of server medium RUNNING
+SENT JCPL 91067 23 medium 0
+RCVD REDY
+t:      91211 job    35 on # 0 of server medium COMPLETED
+t:      91211 job    36 on # 0 of server medium RUNNING
+SENT JCPL 91211 35 medium 0
+RCVD REDY
+t:      91661 job    36 on # 0 of server medium COMPLETED
+t:      91661 job    37 on # 0 of server medium RUNNING
+SENT JCPL 91661 36 medium 0
+RCVD REDY
+t:      91795 job    37 on # 0 of server medium COMPLETED
+t:      91795 job    45 on # 0 of server medium RUNNING
+t:      91795 job    46 on # 0 of server medium RUNNING
+SENT JCPL 91795 37 medium 0
+RCVD REDY
+t:      91821 job    45 on # 0 of server medium COMPLETED
+t:      91821 job    47 on # 0 of server medium RUNNING
+SENT JCPL 91821 45 medium 0
+RCVD REDY
+t:      91904 job    47 on # 0 of server medium COMPLETED
+SENT JCPL 91904 47 medium 0
+RCVD REDY
+t:      92815 job    46 on # 0 of server medium COMPLETED
+t:      92815 job    48 on # 0 of server medium RUNNING
+SENT JCPL 92815 46 medium 0
+RCVD REDY
+t:      93085 job    48 on # 0 of server medium COMPLETED
+t:      93085 job    49 on # 0 of server medium RUNNING
+SENT JCPL 93085 48 medium 0
+RCVD REDY
+t:      93150 job    49 on # 0 of server medium COMPLETED
+t:      93150 job    50 on # 0 of server medium RUNNING
+SENT JCPL 93150 49 medium 0
+RCVD REDY
+t:      93393 job    50 on # 0 of server medium COMPLETED
+t:      93393 job    52 on # 0 of server medium RUNNING
+SENT JCPL 93393 50 medium 0
+RCVD REDY
+t:      94863 job    52 on # 0 of server medium COMPLETED
+t:      94863 job    55 on # 0 of server medium RUNNING
+t:      94863 job    56 on # 0 of server medium RUNNING
+SENT JCPL 94863 52 medium 0
+RCVD REDY
+t:      94976 job    55 on # 0 of server medium COMPLETED
+SENT JCPL 94976 55 medium 0
+RCVD REDY
+t:      95173 job    56 on # 0 of server medium COMPLETED
+t:      95173 job    59 on # 0 of server medium RUNNING
+SENT JCPL 95173 56 medium 0
+RCVD REDY
+t:      95271 job    59 on # 0 of server medium COMPLETED
+t:      95271 job    60 on # 0 of server medium RUNNING
+SENT JCPL 95271 59 medium 0
+RCVD REDY
+t:      96837 job    60 on # 0 of server medium COMPLETED
+t:      96837 job    69 on # 0 of server medium RUNNING
+SENT JCPL 96837 60 medium 0
+RCVD REDY
+t:      96843 job    69 on # 0 of server medium COMPLETED
+t:      96843 job    72 on # 0 of server medium RUNNING
+t:      96843 job    73 on # 0 of server medium RUNNING
+SENT JCPL 96843 69 medium 0
+RCVD REDY
+t:      97579 job    73 on # 0 of server medium COMPLETED
+SENT JCPL 97579 73 medium 0
+RCVD REDY
+t:      98616 job    72 on # 0 of server medium COMPLETED
+t:      98616 job    75 on # 0 of server medium RUNNING
+SENT JCPL 98616 72 medium 0
+RCVD REDY
+t:      98752 job    75 on # 0 of server medium COMPLETED
+t:      98752 job    77 on # 0 of server medium RUNNING
+t:      98752 job    78 on # 0 of server medium RUNNING
+SENT JCPL 98752 75 medium 0
+RCVD REDY
+t:      98918 job    78 on # 0 of server medium COMPLETED
+t:      98918 job    79 on # 0 of server medium RUNNING
+SENT JCPL 98918 78 medium 0
+RCVD REDY
+t:      99233 job    77 on # 0 of server medium COMPLETED
+SENT JCPL 99233 77 medium 0
+RCVD REDY
+t:     126039 job   272 on # 0 of server small COMPLETED
+t:     126039 job   274 on # 0 of server small RUNNING
+SENT JCPL 126039 272 small 0
+RCVD REDY
+t:     126209 job   274 on # 0 of server small COMPLETED
+t:     126209 job   287 on # 0 of server small RUNNING
+SENT JCPL 126209 274 small 0
+RCVD REDY
+t:     126327 job   287 on # 0 of server small COMPLETED
+t:     126327 job   295 on # 0 of server small RUNNING
+SENT JCPL 126327 287 small 0
+RCVD REDY
+t:     126434 job   295 on # 0 of server small COMPLETED
+t:     126434 job   299 on # 0 of server small RUNNING
+SENT JCPL 126434 295 small 0
+RCVD REDY
+t:     132753 job    58 on # 0 of server xlarge COMPLETED
+t:     132753 job    80 on # 0 of server xlarge RUNNING
+SENT JCPL 132753 58 xlarge 0
+RCVD REDY
+t:     138914 job   299 on # 0 of server small COMPLETED
+t:     138914 job   303 on # 0 of server small RUNNING
+SENT JCPL 138914 299 small 0
+RCVD REDY
+t:     139211 job   303 on # 0 of server small COMPLETED
+t:     139211 job   306 on # 0 of server small RUNNING
+SENT JCPL 139211 303 small 0
+RCVD REDY
+t:     140549 job   306 on # 0 of server small COMPLETED
+t:     140549 job   307 on # 0 of server small RUNNING
+SENT JCPL 140549 306 small 0
+RCVD REDY
+t:     141471 job    57 on # 0 of server tiny COMPLETED
+t:     141471 job    61 on # 0 of server tiny RUNNING
+SENT JCPL 141471 57 tiny 0
+RCVD REDY
+t:     141497 job    61 on # 0 of server tiny COMPLETED
+t:     141497 job    62 on # 0 of server tiny RUNNING
+SENT JCPL 141497 61 tiny 0
+RCVD REDY
+t:     141833 job    62 on # 0 of server tiny COMPLETED
+t:     141833 job    65 on # 0 of server tiny RUNNING
+SENT JCPL 141833 62 tiny 0
+RCVD REDY
+t:     141877 job    65 on # 0 of server tiny COMPLETED
+t:     141877 job    66 on # 0 of server tiny RUNNING
+SENT JCPL 141877 65 tiny 0
+RCVD REDY
+t:     141966 job    66 on # 0 of server tiny COMPLETED
+t:     141966 job    67 on # 0 of server tiny RUNNING
+SENT JCPL 141966 66 tiny 0
+RCVD REDY
+t:     141997 job    67 on # 0 of server tiny COMPLETED
+t:     141997 job    68 on # 0 of server tiny RUNNING
+SENT JCPL 141997 67 tiny 0
+RCVD REDY
+t:     142181 job   307 on # 0 of server small COMPLETED
+t:     142181 job   310 on # 0 of server small RUNNING
+SENT JCPL 142181 307 small 0
+RCVD REDY
+t:     142222 job   310 on # 0 of server small COMPLETED
+t:     142222 job   312 on # 0 of server small RUNNING
+SENT JCPL 142222 310 small 0
+RCVD REDY
+t:     142529 job   312 on # 0 of server small COMPLETED
+t:     142529 job   316 on # 0 of server small RUNNING
+SENT JCPL 142529 312 small 0
+RCVD REDY
+t:     143405 job    68 on # 0 of server tiny COMPLETED
+t:     143405 job    70 on # 0 of server tiny RUNNING
+SENT JCPL 143405 68 tiny 0
+RCVD REDY
+t:     143802 job    70 on # 0 of server tiny COMPLETED
+t:     143802 job    74 on # 0 of server tiny RUNNING
+SENT JCPL 143802 70 tiny 0
+RCVD REDY
+t:     144009 job    74 on # 0 of server tiny COMPLETED
+t:     144009 job    88 on # 0 of server tiny RUNNING
+SENT JCPL 144009 74 tiny 0
+RCVD REDY
+t:     144207 job   316 on # 0 of server small COMPLETED
+t:     144207 job   318 on # 0 of server small RUNNING
+SENT JCPL 144207 316 small 0
+RCVD REDY
+t:     144385 job    88 on # 0 of server tiny COMPLETED
+t:     144385 job    90 on # 0 of server tiny RUNNING
+SENT JCPL 144385 88 tiny 0
+RCVD REDY
+t:     144613 job    90 on # 0 of server tiny COMPLETED
+t:     144613 job    94 on # 0 of server tiny RUNNING
+SENT JCPL 144613 90 tiny 0
+RCVD REDY
+t:     145141 job    94 on # 0 of server tiny COMPLETED
+t:     145141 job    96 on # 0 of server tiny RUNNING
+SENT JCPL 145141 94 tiny 0
+RCVD REDY
+t:     145910 job   318 on # 0 of server small COMPLETED
+t:     145910 job   326 on # 0 of server small RUNNING
+SENT JCPL 145910 318 small 0
+RCVD REDY
+t:     146861 job    96 on # 0 of server tiny COMPLETED
+t:     146861 job   106 on # 0 of server tiny RUNNING
+SENT JCPL 146861 96 tiny 0
+RCVD REDY
+t:     147189 job   326 on # 0 of server small COMPLETED
+t:     147189 job   328 on # 0 of server small RUNNING
+SENT JCPL 147189 326 small 0
+RCVD REDY
+t:     147190 job   106 on # 0 of server tiny COMPLETED
+t:     147190 job   108 on # 0 of server tiny RUNNING
+SENT JCPL 147190 106 tiny 0
+RCVD REDY
+t:     147214 job   328 on # 0 of server small COMPLETED
+t:     147214 job   331 on # 0 of server small RUNNING
+SENT JCPL 147214 328 small 0
+RCVD REDY
+t:     147325 job   331 on # 0 of server small COMPLETED
+t:     147325 job   333 on # 0 of server small RUNNING
+SENT JCPL 147325 331 small 0
+RCVD REDY
+t:     147455 job   108 on # 0 of server tiny COMPLETED
+t:     147455 job   109 on # 0 of server tiny RUNNING
+SENT JCPL 147455 108 tiny 0
+RCVD REDY
+t:     147572 job   333 on # 0 of server small COMPLETED
+t:     147572 job   335 on # 0 of server small RUNNING
+SENT JCPL 147572 333 small 0
+RCVD REDY
+t:     147609 job   109 on # 0 of server tiny COMPLETED
+t:     147609 job   122 on # 0 of server tiny RUNNING
+SENT JCPL 147609 109 tiny 0
+RCVD REDY
+t:     147721 job   122 on # 0 of server tiny COMPLETED
+t:     147721 job   124 on # 0 of server tiny RUNNING
+SENT JCPL 147721 122 tiny 0
+RCVD REDY
+t:     148144 job   335 on # 0 of server small COMPLETED
+t:     148144 job   338 on # 0 of server small RUNNING
+SENT JCPL 148144 335 small 0
+RCVD REDY
+t:     148637 job   338 on # 0 of server small COMPLETED
+t:     148637 job   339 on # 0 of server small RUNNING
+SENT JCPL 148637 338 small 0
+RCVD REDY
+t:     148646 job   339 on # 0 of server small COMPLETED
+t:     148646 job   341 on # 0 of server small RUNNING
+SENT JCPL 148646 339 small 0
+RCVD REDY
+t:     148686 job   341 on # 0 of server small COMPLETED
+t:     148686 job   342 on # 0 of server small RUNNING
+SENT JCPL 148686 341 small 0
+RCVD REDY
+t:     148835 job   342 on # 0 of server small COMPLETED
+t:     148835 job   344 on # 0 of server small RUNNING
+SENT JCPL 148835 342 small 0
+RCVD REDY
+t:     149078 job   344 on # 0 of server small COMPLETED
+t:     149078 job   362 on # 0 of server small RUNNING
+SENT JCPL 149078 344 small 0
+RCVD REDY
+t:     149097 job   124 on # 0 of server tiny COMPLETED
+t:     149097 job   126 on # 0 of server tiny RUNNING
+SENT JCPL 149097 124 tiny 0
+RCVD REDY
+t:     149129 job   362 on # 0 of server small COMPLETED
+t:     149129 job   369 on # 0 of server small RUNNING
+SENT JCPL 149129 362 small 0
+RCVD REDY
+t:     149633 job   126 on # 0 of server tiny COMPLETED
+t:     149633 job   140 on # 0 of server tiny RUNNING
+SENT JCPL 149633 126 tiny 0
+RCVD REDY
+t:     149738 job   140 on # 0 of server tiny COMPLETED
+t:     149738 job   144 on # 0 of server tiny RUNNING
+SENT JCPL 149738 140 tiny 0
+RCVD REDY
+t:     149796 job   144 on # 0 of server tiny COMPLETED
+t:     149796 job   146 on # 0 of server tiny RUNNING
+SENT JCPL 149796 144 tiny 0
+RCVD REDY
+t:     150592 job   146 on # 0 of server tiny COMPLETED
+t:     150592 job   148 on # 0 of server tiny RUNNING
+SENT JCPL 150592 146 tiny 0
+RCVD REDY
+t:     150752 job   148 on # 0 of server tiny COMPLETED
+t:     150752 job   151 on # 0 of server tiny RUNNING
+SENT JCPL 150752 148 tiny 0
+RCVD REDY
+t:     151823 job   151 on # 0 of server tiny COMPLETED
+t:     151823 job   153 on # 0 of server tiny RUNNING
+SENT JCPL 151823 151 tiny 0
+RCVD REDY
+t:     164734 job    80 on # 0 of server xlarge COMPLETED
+t:     164734 job    81 on # 0 of server xlarge RUNNING
+SENT JCPL 164734 80 xlarge 0
+RCVD REDY
+t:     164899 job    81 on # 0 of server xlarge COMPLETED
+t:     164899 job    82 on # 0 of server xlarge RUNNING
+t:     164899 job    84 on # 0 of server xlarge RUNNING
+SENT JCPL 164899 81 xlarge 0
+RCVD REDY
+t:     164973 job    84 on # 0 of server xlarge COMPLETED
+t:     164973 job    87 on # 0 of server xlarge RUNNING
+SENT JCPL 164973 84 xlarge 0
+RCVD REDY
+t:     165101 job    87 on # 0 of server xlarge COMPLETED
+t:     165101 job    93 on # 0 of server xlarge RUNNING
+SENT JCPL 165101 87 xlarge 0
+RCVD REDY
+t:     165102 job    93 on # 0 of server xlarge COMPLETED
+t:     165102 job    95 on # 0 of server xlarge RUNNING
+t:     165102 job   112 on # 0 of server xlarge RUNNING
+SENT JCPL 165102 93 xlarge 0
+RCVD REDY
+t:     165108 job    95 on # 0 of server xlarge COMPLETED
+SENT JCPL 165108 95 xlarge 0
+RCVD REDY
+t:     165151 job   112 on # 0 of server xlarge COMPLETED
+t:     165151 job   113 on # 0 of server xlarge RUNNING
+SENT JCPL 165151 112 xlarge 0
+RCVD REDY
+t:     165159 job   113 on # 0 of server xlarge COMPLETED
+t:     165159 job   115 on # 0 of server xlarge RUNNING
+SENT JCPL 165159 113 xlarge 0
+RCVD REDY
+t:     165184 job    82 on # 0 of server xlarge COMPLETED
+t:     165184 job   123 on # 0 of server xlarge RUNNING
+SENT JCPL 165184 82 xlarge 0
+RCVD REDY
+t:     166023 job   115 on # 0 of server xlarge COMPLETED
+t:     166023 job   125 on # 0 of server xlarge RUNNING
+SENT JCPL 166023 115 xlarge 0
+RCVD REDY
+t:     166215 job   123 on # 0 of server xlarge COMPLETED
+t:     166215 job   127 on # 0 of server xlarge RUNNING
+SENT JCPL 166215 123 xlarge 0
+RCVD REDY
+t:     166730 job   125 on # 0 of server xlarge COMPLETED
+t:     166730 job   149 on # 0 of server xlarge RUNNING
+SENT JCPL 166730 125 xlarge 0
+RCVD REDY
+t:     167250 job   149 on # 0 of server xlarge COMPLETED
+t:     167250 job   162 on # 0 of server xlarge RUNNING
+SENT JCPL 167250 149 xlarge 0
+RCVD REDY
+t:     167327 job   162 on # 0 of server xlarge COMPLETED
+t:     167327 job   168 on # 0 of server xlarge RUNNING
+t:     167327 job   169 on # 0 of server xlarge RUNNING
+SENT JCPL 167327 162 xlarge 0
+RCVD REDY
+t:     167782 job   168 on # 0 of server xlarge COMPLETED
+SENT JCPL 167782 168 xlarge 0
+RCVD REDY
+t:     169265 job    79 on # 0 of server medium COMPLETED
+t:     169265 job    83 on # 0 of server medium RUNNING
+SENT JCPL 169265 79 medium 0
+RCVD REDY
+t:     170908 job    83 on # 0 of server medium COMPLETED
+t:     170908 job    85 on # 0 of server medium RUNNING
+t:     170908 job    86 on # 0 of server medium RUNNING
+SENT JCPL 170908 83 medium 0
+RCVD REDY
+t:     171329 job    85 on # 0 of server medium COMPLETED
+SENT JCPL 171329 85 medium 0
+RCVD REDY
+t:     172170 job    86 on # 0 of server medium COMPLETED
+t:     172170 job    89 on # 0 of server medium RUNNING
+SENT JCPL 172170 86 medium 0
+RCVD REDY
+t:     172307 job    89 on # 0 of server medium COMPLETED
+t:     172307 job    91 on # 0 of server medium RUNNING
+t:     172307 job    97 on # 0 of server medium RUNNING
+SENT JCPL 172307 89 medium 0
+RCVD REDY
+t:     172772 job    91 on # 0 of server medium COMPLETED
+SENT JCPL 172772 91 medium 0
+RCVD REDY
+t:     172964 job    97 on # 0 of server medium COMPLETED
+t:     172964 job    98 on # 0 of server medium RUNNING
+SENT JCPL 172964 97 medium 0
+RCVD REDY
+t:     172982 job    98 on # 0 of server medium COMPLETED
+t:     172982 job    99 on # 0 of server medium RUNNING
+t:     172982 job   100 on # 0 of server medium RUNNING
+SENT JCPL 172982 98 medium 0
+RCVD REDY
+t:     173003 job    99 on # 0 of server medium COMPLETED
+t:     173003 job   101 on # 0 of server medium RUNNING
+SENT JCPL 173003 99 medium 0
+RCVD REDY
+t:     173137 job   100 on # 0 of server medium COMPLETED
+SENT JCPL 173137 100 medium 0
+RCVD REDY
+t:     173203 job   153 on # 0 of server tiny COMPLETED
+t:     173203 job   157 on # 0 of server tiny RUNNING
+SENT JCPL 173203 153 tiny 0
+RCVD REDY
+t:     173405 job   101 on # 0 of server medium COMPLETED
+t:     173405 job   102 on # 0 of server medium RUNNING
+SENT JCPL 173405 101 medium 0
+RCVD REDY
+t:     173850 job   102 on # 0 of server medium COMPLETED
+t:     173850 job   103 on # 0 of server medium RUNNING
+SENT JCPL 173850 102 medium 0
+RCVD REDY
+t:     173855 job   103 on # 0 of server medium COMPLETED
+t:     173855 job   104 on # 0 of server medium RUNNING
+SENT JCPL 173855 103 medium 0
+RCVD REDY
+t:     174312 job   104 on # 0 of server medium COMPLETED
+t:     174312 job   105 on # 0 of server medium RUNNING
+SENT JCPL 174312 104 medium 0
+RCVD REDY
+t:     174395 job   105 on # 0 of server medium COMPLETED
+t:     174395 job   107 on # 0 of server medium RUNNING
+SENT JCPL 174395 105 medium 0
+RCVD REDY
+t:     174770 job   157 on # 0 of server tiny COMPLETED
+t:     174770 job   160 on # 0 of server tiny RUNNING
+SENT JCPL 174770 157 tiny 0
+RCVD REDY
+t:     174980 job   160 on # 0 of server tiny COMPLETED
+t:     174980 job   161 on # 0 of server tiny RUNNING
+SENT JCPL 174980 160 tiny 0
+RCVD REDY
+t:     175526 job   161 on # 0 of server tiny COMPLETED
+t:     175526 job   166 on # 0 of server tiny RUNNING
+SENT JCPL 175526 161 tiny 0
+RCVD REDY
+t:     175632 job   166 on # 0 of server tiny COMPLETED
+t:     175632 job   167 on # 0 of server tiny RUNNING
+SENT JCPL 175632 166 tiny 0
+RCVD REDY
+t:     175673 job   107 on # 0 of server medium COMPLETED
+t:     175673 job   110 on # 0 of server medium RUNNING
+SENT JCPL 175673 107 medium 0
+RCVD REDY
+t:     185416 job   369 on # 0 of server small COMPLETED
+t:     185416 job   371 on # 0 of server small RUNNING
+SENT JCPL 185416 369 small 0
+RCVD REDY
+t:     185451 job   371 on # 0 of server small COMPLETED
+t:     185451 job   372 on # 0 of server small RUNNING
+SENT JCPL 185451 371 small 0
+RCVD REDY
+t:     185742 job   372 on # 0 of server small COMPLETED
+t:     185742 job   374 on # 0 of server small RUNNING
+SENT JCPL 185742 372 small 0
+RCVD REDY
+t:     185912 job   374 on # 0 of server small COMPLETED
+t:     185912 job   375 on # 0 of server small RUNNING
+SENT JCPL 185912 374 small 0
+RCVD REDY
+t:     186450 job   375 on # 0 of server small COMPLETED
+t:     186450 job   376 on # 0 of server small RUNNING
+SENT JCPL 186450 375 small 0
+RCVD REDY
+t:     186485 job   376 on # 0 of server small COMPLETED
+t:     186485 job   380 on # 0 of server small RUNNING
+SENT JCPL 186485 376 small 0
+RCVD REDY
+t:     186611 job   380 on # 0 of server small COMPLETED
+t:     186611 job   396 on # 0 of server small RUNNING
+SENT JCPL 186611 380 small 0
+RCVD REDY
+t:     187018 job   396 on # 0 of server small COMPLETED
+t:     187018 job   401 on # 0 of server small RUNNING
+SENT JCPL 187018 396 small 0
+RCVD REDY
+t:     187830 job   401 on # 0 of server small COMPLETED
+t:     187830 job   404 on # 0 of server small RUNNING
+SENT JCPL 187830 401 small 0
+RCVD REDY
+t:     187947 job   404 on # 0 of server small COMPLETED
+t:     187947 job   406 on # 0 of server small RUNNING
+SENT JCPL 187947 404 small 0
+RCVD REDY
+t:     187985 job   406 on # 0 of server small COMPLETED
+t:     187985 job   409 on # 0 of server small RUNNING
+SENT JCPL 187985 406 small 0
+RCVD REDY
+t:     188163 job   409 on # 0 of server small COMPLETED
+t:     188163 job   411 on # 0 of server small RUNNING
+SENT JCPL 188163 409 small 0
+RCVD REDY
+t:     188466 job   411 on # 0 of server small COMPLETED
+t:     188466 job   417 on # 0 of server small RUNNING
+SENT JCPL 188466 411 small 0
+RCVD REDY
+t:     188502 job   417 on # 0 of server small COMPLETED
+t:     188502 job   423 on # 0 of server small RUNNING
+SENT JCPL 188502 417 small 0
+RCVD REDY
+t:     190296 job   423 on # 0 of server small COMPLETED
+t:     190296 job   427 on # 0 of server small RUNNING
+SENT JCPL 190296 423 small 0
+RCVD REDY
+t:     190435 job   427 on # 0 of server small COMPLETED
+t:     190435 job   432 on # 0 of server small RUNNING
+SENT JCPL 190435 427 small 0
+RCVD REDY
+t:     190848 job   432 on # 0 of server small COMPLETED
+t:     190848 job   447 on # 0 of server small RUNNING
+SENT JCPL 190848 432 small 0
+RCVD REDY
+t:     190861 job   447 on # 0 of server small COMPLETED
+t:     190861 job   454 on # 0 of server small RUNNING
+SENT JCPL 190861 447 small 0
+RCVD REDY
+t:     203841 job   127 on # 0 of server xlarge COMPLETED
+t:     203841 job   182 on # 0 of server xlarge RUNNING
+SENT JCPL 203841 127 xlarge 0
+RCVD REDY
+t:     208452 job   454 on # 0 of server small COMPLETED
+t:     208452 job   456 on # 0 of server small RUNNING
+SENT JCPL 208452 454 small 0
+RCVD REDY
+t:     209557 job   456 on # 0 of server small COMPLETED
+t:     209557 job   458 on # 0 of server small RUNNING
+SENT JCPL 209557 456 small 0
+RCVD REDY
+t:     209724 job   458 on # 0 of server small COMPLETED
+t:     209724 job   459 on # 0 of server small RUNNING
+SENT JCPL 209724 458 small 0
+RCVD REDY
+t:     209854 job   459 on # 0 of server small COMPLETED
+t:     209854 job   460 on # 0 of server small RUNNING
+SENT JCPL 209854 459 small 0
+RCVD REDY
+t:     210134 job   460 on # 0 of server small COMPLETED
+t:     210134 job   463 on # 0 of server small RUNNING
+SENT JCPL 210134 460 small 0
+RCVD REDY
+t:     210144 job   463 on # 0 of server small COMPLETED
+t:     210144 job   465 on # 0 of server small RUNNING
+SENT JCPL 210144 463 small 0
+RCVD REDY
+t:     237183 job   110 on # 0 of server medium COMPLETED
+t:     237183 job   111 on # 0 of server medium RUNNING
+SENT JCPL 237183 110 medium 0
+RCVD REDY
+t:     237189 job   111 on # 0 of server medium COMPLETED
+t:     237189 job   114 on # 0 of server medium RUNNING
+SENT JCPL 237189 111 medium 0
+RCVD REDY
+t:     237619 job   114 on # 0 of server medium COMPLETED
+t:     237619 job   116 on # 0 of server medium RUNNING
+SENT JCPL 237619 114 medium 0
+RCVD REDY
+t:     237701 job   116 on # 0 of server medium COMPLETED
+t:     237701 job   117 on # 0 of server medium RUNNING
+SENT JCPL 237701 116 medium 0
+RCVD REDY
+t:     237789 job   117 on # 0 of server medium COMPLETED
+t:     237789 job   118 on # 0 of server medium RUNNING
+t:     237789 job   119 on # 0 of server medium RUNNING
+SENT JCPL 237789 117 medium 0
+RCVD REDY
+t:     237960 job   118 on # 0 of server medium COMPLETED
+SENT JCPL 237960 118 medium 0
+RCVD REDY
+t:     243080 job   167 on # 0 of server tiny COMPLETED
+t:     243080 job   170 on # 0 of server tiny RUNNING
+SENT JCPL 243080 167 tiny 0
+RCVD REDY
+t:     244873 job   465 on # 0 of server small COMPLETED
+t:     244873 job   473 on # 0 of server small RUNNING
+SENT JCPL 244873 465 small 0
+RCVD REDY
+t:     244890 job   473 on # 0 of server small COMPLETED
+t:     244890 job   481 on # 0 of server small RUNNING
+SENT JCPL 244890 473 small 0
+RCVD REDY
+t:     245350 job   481 on # 0 of server small COMPLETED
+t:     245350 job   483 on # 0 of server small RUNNING
+SENT JCPL 245350 481 small 0
+RCVD REDY
+t:     245375 job   483 on # 0 of server small COMPLETED
+t:     245375 job   484 on # 0 of server small RUNNING
+SENT JCPL 245375 483 small 0
+RCVD REDY
+t:     245720 job   484 on # 0 of server small COMPLETED
+t:     245720 job   487 on # 0 of server small RUNNING
+SENT JCPL 245720 484 small 0
+RCVD REDY
+t:     245726 job   487 on # 0 of server small COMPLETED
+t:     245726 job   488 on # 0 of server small RUNNING
+SENT JCPL 245726 487 small 0
+RCVD REDY
+t:     245740 job   488 on # 0 of server small COMPLETED
+t:     245740 job   493 on # 0 of server small RUNNING
+SENT JCPL 245740 488 small 0
+RCVD REDY
+t:     246289 job   493 on # 0 of server small COMPLETED
+t:     246289 job   499 on # 0 of server small RUNNING
+SENT JCPL 246289 493 small 0
+RCVD REDY
+t:     246301 job   499 on # 0 of server small COMPLETED
+SENT JCPL 246301 499 small 0
+RCVD REDY
+t:     265688 job   169 on # 0 of server xlarge COMPLETED
+t:     265688 job   183 on # 0 of server xlarge RUNNING
+SENT JCPL 265688 169 xlarge 0
+RCVD REDY
+t:     267166 job   183 on # 0 of server xlarge COMPLETED
+SENT JCPL 267166 183 xlarge 0
+RCVD REDY
+t:     280160 job   119 on # 0 of server medium COMPLETED
+t:     280160 job   120 on # 0 of server medium RUNNING
+SENT JCPL 280160 119 medium 0
+RCVD REDY
+t:     280377 job   120 on # 0 of server medium COMPLETED
+t:     280377 job   121 on # 0 of server medium RUNNING
+SENT JCPL 280377 120 medium 0
+RCVD REDY
+t:     281961 job   121 on # 0 of server medium COMPLETED
+t:     281961 job   128 on # 0 of server medium RUNNING
+SENT JCPL 281961 121 medium 0
+RCVD REDY
+t:     281993 job   128 on # 0 of server medium COMPLETED
+t:     281993 job   129 on # 0 of server medium RUNNING
+SENT JCPL 281993 128 medium 0
+RCVD REDY
+t:     283020 job   129 on # 0 of server medium COMPLETED
+t:     283020 job   130 on # 0 of server medium RUNNING
+SENT JCPL 283020 129 medium 0
+RCVD REDY
+t:     283416 job   130 on # 0 of server medium COMPLETED
+t:     283416 job   131 on # 0 of server medium RUNNING
+SENT JCPL 283416 130 medium 0
+RCVD REDY
+t:     287080 job   182 on # 0 of server xlarge COMPLETED
+t:     287080 job   188 on # 0 of server xlarge RUNNING
+t:     287080 job   197 on # 0 of server xlarge RUNNING
+SENT JCPL 287080 182 xlarge 0
+RCVD REDY
+t:     287197 job   197 on # 0 of server xlarge COMPLETED
+SENT JCPL 287197 197 xlarge 0
+RCVD REDY
+t:     287633 job   188 on # 0 of server xlarge COMPLETED
+t:     287633 job   205 on # 0 of server xlarge RUNNING
+SENT JCPL 287633 188 xlarge 0
+RCVD REDY
+t:     287739 job   205 on # 0 of server xlarge COMPLETED
+t:     287739 job   207 on # 0 of server xlarge RUNNING
+t:     287739 job   211 on # 0 of server xlarge RUNNING
+SENT JCPL 287739 205 xlarge 0
+RCVD REDY
+t:     289380 job   211 on # 0 of server xlarge COMPLETED
+SENT JCPL 289380 211 xlarge 0
+RCVD REDY
+t:     326276 job   170 on # 0 of server tiny COMPLETED
+t:     326276 job   172 on # 0 of server tiny RUNNING
+SENT JCPL 326276 170 tiny 0
+RCVD REDY
+t:     330600 job   172 on # 0 of server tiny COMPLETED
+t:     330600 job   176 on # 0 of server tiny RUNNING
+SENT JCPL 330600 172 tiny 0
+RCVD REDY
+t:     330845 job   176 on # 0 of server tiny COMPLETED
+t:     330845 job   178 on # 0 of server tiny RUNNING
+SENT JCPL 330845 176 tiny 0
+RCVD REDY
+t:     331077 job   178 on # 0 of server tiny COMPLETED
+t:     331077 job   179 on # 0 of server tiny RUNNING
+SENT JCPL 331077 178 tiny 0
+RCVD REDY
+t:     331903 job   179 on # 0 of server tiny COMPLETED
+t:     331903 job   180 on # 0 of server tiny RUNNING
+SENT JCPL 331903 179 tiny 0
+RCVD REDY
+t:     332061 job   180 on # 0 of server tiny COMPLETED
+t:     332061 job   181 on # 0 of server tiny RUNNING
+SENT JCPL 332061 180 tiny 0
+RCVD REDY
+t:     332206 job   181 on # 0 of server tiny COMPLETED
+t:     332206 job   185 on # 0 of server tiny RUNNING
+SENT JCPL 332206 181 tiny 0
+RCVD REDY
+t:     332341 job   185 on # 0 of server tiny COMPLETED
+t:     332341 job   192 on # 0 of server tiny RUNNING
+SENT JCPL 332341 185 tiny 0
+RCVD REDY
+t:     332529 job   192 on # 0 of server tiny COMPLETED
+t:     332529 job   194 on # 0 of server tiny RUNNING
+SENT JCPL 332529 192 tiny 0
+RCVD REDY
+t:     332896 job   194 on # 0 of server tiny COMPLETED
+t:     332896 job   195 on # 0 of server tiny RUNNING
+SENT JCPL 332896 194 tiny 0
+RCVD REDY
+t:     332965 job   195 on # 0 of server tiny COMPLETED
+t:     332965 job   196 on # 0 of server tiny RUNNING
+SENT JCPL 332965 195 tiny 0
+RCVD REDY
+t:     332990 job   196 on # 0 of server tiny COMPLETED
+t:     332990 job   199 on # 0 of server tiny RUNNING
+SENT JCPL 332990 196 tiny 0
+RCVD REDY
+t:     333018 job   199 on # 0 of server tiny COMPLETED
+t:     333018 job   201 on # 0 of server tiny RUNNING
+SENT JCPL 333018 199 tiny 0
+RCVD REDY
+t:     333028 job   201 on # 0 of server tiny COMPLETED
+t:     333028 job   203 on # 0 of server tiny RUNNING
+SENT JCPL 333028 201 tiny 0
+RCVD REDY
+t:     333079 job   203 on # 0 of server tiny COMPLETED
+t:     333079 job   206 on # 0 of server tiny RUNNING
+SENT JCPL 333079 203 tiny 0
+RCVD REDY
+t:     333329 job   206 on # 0 of server tiny COMPLETED
+t:     333329 job   212 on # 0 of server tiny RUNNING
+SENT JCPL 333329 206 tiny 0
+RCVD REDY
+t:     334059 job   212 on # 0 of server tiny COMPLETED
+t:     334059 job   223 on # 0 of server tiny RUNNING
+SENT JCPL 334059 212 tiny 0
+RCVD REDY
+t:     334607 job   223 on # 0 of server tiny COMPLETED
+t:     334607 job   224 on # 0 of server tiny RUNNING
+SENT JCPL 334607 223 tiny 0
+RCVD REDY
+t:     334750 job   224 on # 0 of server tiny COMPLETED
+t:     334750 job   225 on # 0 of server tiny RUNNING
+SENT JCPL 334750 224 tiny 0
+RCVD REDY
+t:     343620 job   131 on # 0 of server medium COMPLETED
+t:     343620 job   132 on # 0 of server medium RUNNING
+t:     343620 job   133 on # 0 of server medium RUNNING
+SENT JCPL 343620 131 medium 0
+RCVD REDY
+t:     343663 job   133 on # 0 of server medium COMPLETED
+SENT JCPL 343663 133 medium 0
+RCVD REDY
+t:     343981 job   132 on # 0 of server medium COMPLETED
+t:     343981 job   134 on # 0 of server medium RUNNING
+SENT JCPL 343981 132 medium 0
+RCVD REDY
+t:     344109 job   134 on # 0 of server medium COMPLETED
+t:     344109 job   135 on # 0 of server medium RUNNING
+t:     344109 job   136 on # 0 of server medium RUNNING
+SENT JCPL 344109 134 medium 0
+RCVD REDY
+t:     344167 job   135 on # 0 of server medium COMPLETED
+t:     344167 job   137 on # 0 of server medium RUNNING
+SENT JCPL 344167 135 medium 0
+RCVD REDY
+t:     344244 job   137 on # 0 of server medium COMPLETED
+t:     344244 job   138 on # 0 of server medium RUNNING
+SENT JCPL 344244 137 medium 0
+RCVD REDY
+t:     344287 job   136 on # 0 of server medium COMPLETED
+SENT JCPL 344287 136 medium 0
+RCVD REDY
+t:     345104 job   138 on # 0 of server medium COMPLETED
+t:     345104 job   139 on # 0 of server medium RUNNING
+SENT JCPL 345104 138 medium 0
+RCVD REDY
+t:     345229 job   139 on # 0 of server medium COMPLETED
+t:     345229 job   141 on # 0 of server medium RUNNING
+t:     345229 job   142 on # 0 of server medium RUNNING
+SENT JCPL 345229 139 medium 0
+RCVD REDY
+t:     345372 job   141 on # 0 of server medium COMPLETED
+t:     345372 job   143 on # 0 of server medium RUNNING
+SENT JCPL 345372 141 medium 0
+RCVD REDY
+t:     345877 job   143 on # 0 of server medium COMPLETED
+t:     345877 job   145 on # 0 of server medium RUNNING
+SENT JCPL 345877 143 medium 0
+RCVD REDY
+t:     345959 job   145 on # 0 of server medium COMPLETED
+SENT JCPL 345959 145 medium 0
+RCVD REDY
+t:     346752 job   142 on # 0 of server medium COMPLETED
+t:     346752 job   147 on # 0 of server medium RUNNING
+SENT JCPL 346752 142 medium 0
+RCVD REDY
+t:     347164 job   147 on # 0 of server medium COMPLETED
+t:     347164 job   150 on # 0 of server medium RUNNING
+SENT JCPL 347164 147 medium 0
+RCVD REDY
+t:     347461 job   150 on # 0 of server medium COMPLETED
+t:     347461 job   152 on # 0 of server medium RUNNING
+SENT JCPL 347461 150 medium 0
+RCVD REDY
+t:     348023 job   152 on # 0 of server medium COMPLETED
+t:     348023 job   154 on # 0 of server medium RUNNING
+SENT JCPL 348023 152 medium 0
+RCVD REDY
+t:     348379 job   154 on # 0 of server medium COMPLETED
+t:     348379 job   155 on # 0 of server medium RUNNING
+SENT JCPL 348379 154 medium 0
+RCVD REDY
+t:     348532 job   155 on # 0 of server medium COMPLETED
+t:     348532 job   156 on # 0 of server medium RUNNING
+SENT JCPL 348532 155 medium 0
+RCVD REDY
+t:     348660 job   156 on # 0 of server medium COMPLETED
+t:     348660 job   158 on # 0 of server medium RUNNING
+SENT JCPL 348660 156 medium 0
+RCVD REDY
+t:     368027 job   207 on # 0 of server xlarge COMPLETED
+t:     368027 job   213 on # 0 of server xlarge RUNNING
+SENT JCPL 368027 207 xlarge 0
+RCVD REDY
+t:     368557 job   213 on # 0 of server xlarge COMPLETED
+t:     368557 job   214 on # 0 of server xlarge RUNNING
+t:     368557 job   234 on # 0 of server xlarge RUNNING
+SENT JCPL 368557 213 xlarge 0
+RCVD REDY
+t:     368730 job   234 on # 0 of server xlarge COMPLETED
+SENT JCPL 368730 234 xlarge 0
+RCVD REDY
+t:     368735 job   214 on # 0 of server xlarge COMPLETED
+t:     368735 job   236 on # 0 of server xlarge RUNNING
+SENT JCPL 368735 214 xlarge 0
+RCVD REDY
+t:     368836 job   236 on # 0 of server xlarge COMPLETED
+t:     368836 job   239 on # 0 of server xlarge RUNNING
+t:     368836 job   247 on # 0 of server xlarge RUNNING
+SENT JCPL 368836 236 xlarge 0
+RCVD REDY
+t:     368843 job   239 on # 0 of server xlarge COMPLETED
+t:     368843 job   248 on # 0 of server xlarge RUNNING
+SENT JCPL 368843 239 xlarge 0
+RCVD REDY
+t:     369024 job   248 on # 0 of server xlarge COMPLETED
+t:     369024 job   254 on # 0 of server xlarge RUNNING
+SENT JCPL 369024 248 xlarge 0
+RCVD REDY
+t:     369336 job   254 on # 0 of server xlarge COMPLETED
+t:     369336 job   260 on # 0 of server xlarge RUNNING
+SENT JCPL 369336 254 xlarge 0
+RCVD REDY
+t:     370140 job   260 on # 0 of server xlarge COMPLETED
+t:     370140 job   262 on # 0 of server xlarge RUNNING
+SENT JCPL 370140 260 xlarge 0
+RCVD REDY
+t:     370147 job   247 on # 0 of server xlarge COMPLETED
+t:     370147 job   263 on # 0 of server xlarge RUNNING
+SENT JCPL 370147 247 xlarge 0
+RCVD REDY
+t:     371184 job   263 on # 0 of server xlarge COMPLETED
+SENT JCPL 371184 263 xlarge 0
+RCVD REDY
+t:     371543 job   262 on # 0 of server xlarge COMPLETED
+t:     371543 job   268 on # 0 of server xlarge RUNNING
+SENT JCPL 371543 262 xlarge 0
+RCVD REDY
+t:     371670 job   268 on # 0 of server xlarge COMPLETED
+t:     371670 job   278 on # 0 of server xlarge RUNNING
+t:     371670 job   279 on # 0 of server xlarge RUNNING
+SENT JCPL 371670 268 xlarge 0
+RCVD REDY
+t:     371718 job   278 on # 0 of server xlarge COMPLETED
+t:     371718 job   281 on # 0 of server xlarge RUNNING
+SENT JCPL 371718 278 xlarge 0
+RCVD REDY
+t:     371869 job   281 on # 0 of server xlarge COMPLETED
+SENT JCPL 371869 281 xlarge 0
+RCVD REDY
+t:     372029 job   279 on # 0 of server xlarge COMPLETED
+t:     372029 job   290 on # 0 of server xlarge RUNNING
+SENT JCPL 372029 279 xlarge 0
+RCVD REDY
+t:     372481 job   290 on # 0 of server xlarge COMPLETED
+t:     372481 job   291 on # 0 of server xlarge RUNNING
+SENT JCPL 372481 290 xlarge 0
+RCVD REDY
+t:     372544 job   291 on # 0 of server xlarge COMPLETED
+t:     372544 job   292 on # 0 of server xlarge RUNNING
+SENT JCPL 372544 291 xlarge 0
+RCVD REDY
+t:     417740 job   225 on # 0 of server tiny COMPLETED
+t:     417740 job   226 on # 0 of server tiny RUNNING
+SENT JCPL 417740 225 tiny 0
+RCVD REDY
+t:     417766 job   226 on # 0 of server tiny COMPLETED
+t:     417766 job   228 on # 0 of server tiny RUNNING
+SENT JCPL 417766 226 tiny 0
+RCVD REDY
+t:     417786 job   228 on # 0 of server tiny COMPLETED
+t:     417786 job   230 on # 0 of server tiny RUNNING
+SENT JCPL 417786 228 tiny 0
+RCVD REDY
+t:     417976 job   230 on # 0 of server tiny COMPLETED
+t:     417976 job   233 on # 0 of server tiny RUNNING
+SENT JCPL 417976 230 tiny 0
+RCVD REDY
+t:     418455 job   233 on # 0 of server tiny COMPLETED
+t:     418455 job   235 on # 0 of server tiny RUNNING
+SENT JCPL 418455 233 tiny 0
+RCVD REDY
+t:     418467 job   235 on # 0 of server tiny COMPLETED
+t:     418467 job   237 on # 0 of server tiny RUNNING
+SENT JCPL 418467 235 tiny 0
+RCVD REDY
+t:     418569 job   237 on # 0 of server tiny COMPLETED
+t:     418569 job   238 on # 0 of server tiny RUNNING
+SENT JCPL 418569 237 tiny 0
+RCVD REDY
+t:     432911 job   292 on # 0 of server xlarge COMPLETED
+t:     432911 job   293 on # 0 of server xlarge RUNNING
+SENT JCPL 432911 292 xlarge 0
+RCVD REDY
+t:     442231 job   158 on # 0 of server medium COMPLETED
+t:     442231 job   159 on # 0 of server medium RUNNING
+t:     442231 job   163 on # 0 of server medium RUNNING
+SENT JCPL 442231 158 medium 0
+RCVD REDY
+t:     442538 job   159 on # 0 of server medium COMPLETED
+t:     442538 job   164 on # 0 of server medium RUNNING
+SENT JCPL 442538 159 medium 0
+RCVD REDY
+t:     442593 job   164 on # 0 of server medium COMPLETED
+t:     442593 job   165 on # 0 of server medium RUNNING
+SENT JCPL 442593 164 medium 0
+RCVD REDY
+t:     443117 job   165 on # 0 of server medium COMPLETED
+t:     443117 job   171 on # 0 of server medium RUNNING
+SENT JCPL 443117 165 medium 0
+RCVD REDY
+t:     443542 job   171 on # 0 of server medium COMPLETED
+t:     443542 job   173 on # 0 of server medium RUNNING
+SENT JCPL 443542 171 medium 0
+RCVD REDY
+t:     443692 job   173 on # 0 of server medium COMPLETED
+t:     443692 job   174 on # 0 of server medium RUNNING
+SENT JCPL 443692 173 medium 0
+RCVD REDY
+t:     443697 job   174 on # 0 of server medium COMPLETED
+t:     443697 job   175 on # 0 of server medium RUNNING
+SENT JCPL 443697 174 medium 0
+RCVD REDY
+t:     444275 job   238 on # 0 of server tiny COMPLETED
+t:     444275 job   241 on # 0 of server tiny RUNNING
+SENT JCPL 444275 238 tiny 0
+RCVD REDY
+t:     444481 job   175 on # 0 of server medium COMPLETED
+t:     444481 job   177 on # 0 of server medium RUNNING
+SENT JCPL 444481 175 medium 0
+RCVD REDY
+t:     444547 job   177 on # 0 of server medium COMPLETED
+t:     444547 job   184 on # 0 of server medium RUNNING
+SENT JCPL 444547 177 medium 0
+RCVD REDY
+t:     445433 job   241 on # 0 of server tiny COMPLETED
+t:     445433 job   242 on # 0 of server tiny RUNNING
+SENT JCPL 445433 241 tiny 0
+RCVD REDY
+t:     446067 job   184 on # 0 of server medium COMPLETED
+t:     446067 job   186 on # 0 of server medium RUNNING
+SENT JCPL 446067 184 medium 0
+RCVD REDY
+t:     447480 job   186 on # 0 of server medium COMPLETED
+SENT JCPL 447480 186 medium 0
+RCVD REDY
+t:     483920 job   242 on # 0 of server tiny COMPLETED
+t:     483920 job   245 on # 0 of server tiny RUNNING
+SENT JCPL 483920 242 tiny 0
+RCVD REDY
+t:     484051 job   245 on # 0 of server tiny COMPLETED
+t:     484051 job   251 on # 0 of server tiny RUNNING
+SENT JCPL 484051 245 tiny 0
+RCVD REDY
+t:     484149 job   251 on # 0 of server tiny COMPLETED
+t:     484149 job   252 on # 0 of server tiny RUNNING
+SENT JCPL 484149 251 tiny 0
+RCVD REDY
+t:     484150 job   252 on # 0 of server tiny COMPLETED
+t:     484150 job   255 on # 0 of server tiny RUNNING
+SENT JCPL 484150 252 tiny 0
+RCVD REDY
+t:     484449 job   255 on # 0 of server tiny COMPLETED
+t:     484449 job   257 on # 0 of server tiny RUNNING
+SENT JCPL 484449 255 tiny 0
+RCVD REDY
+t:     484475 job   257 on # 0 of server tiny COMPLETED
+t:     484475 job   258 on # 0 of server tiny RUNNING
+SENT JCPL 484475 257 tiny 0
+RCVD REDY
+t:     484496 job   258 on # 0 of server tiny COMPLETED
+t:     484496 job   265 on # 0 of server tiny RUNNING
+SENT JCPL 484496 258 tiny 0
+RCVD REDY
+t:     484553 job   265 on # 0 of server tiny COMPLETED
+t:     484553 job   269 on # 0 of server tiny RUNNING
+SENT JCPL 484553 265 tiny 0
+RCVD REDY
+t:     517002 job   293 on # 0 of server xlarge COMPLETED
+t:     517002 job   294 on # 0 of server xlarge RUNNING
+t:     517002 job   297 on # 0 of server xlarge RUNNING
+SENT JCPL 517002 293 xlarge 0
+RCVD REDY
+t:     517031 job   297 on # 0 of server xlarge COMPLETED
+SENT JCPL 517031 297 xlarge 0
+RCVD REDY
+t:     518349 job   294 on # 0 of server xlarge COMPLETED
+t:     518349 job   301 on # 0 of server xlarge RUNNING
+SENT JCPL 518349 294 xlarge 0
+RCVD REDY
+t:     518447 job   301 on # 0 of server xlarge COMPLETED
+t:     518447 job   317 on # 0 of server xlarge RUNNING
+SENT JCPL 518447 301 xlarge 0
+RCVD REDY
+t:     518504 job   317 on # 0 of server xlarge COMPLETED
+t:     518504 job   319 on # 0 of server xlarge RUNNING
+t:     518504 job   324 on # 0 of server xlarge RUNNING
+SENT JCPL 518504 317 xlarge 0
+RCVD REDY
+t:     518971 job   319 on # 0 of server xlarge COMPLETED
+t:     518971 job   325 on # 0 of server xlarge RUNNING
+SENT JCPL 518971 319 xlarge 0
+RCVD REDY
+t:     519050 job   324 on # 0 of server xlarge COMPLETED
+SENT JCPL 519050 324 xlarge 0
+RCVD REDY
+t:     519113 job   325 on # 0 of server xlarge COMPLETED
+t:     519113 job   327 on # 0 of server xlarge RUNNING
+SENT JCPL 519113 325 xlarge 0
+RCVD REDY
+t:     520806 job   327 on # 0 of server xlarge COMPLETED
+t:     520806 job   329 on # 0 of server xlarge RUNNING
+SENT JCPL 520806 327 xlarge 0
+RCVD REDY
+t:     520967 job   329 on # 0 of server xlarge COMPLETED
+t:     520967 job   343 on # 0 of server xlarge RUNNING
+t:     520967 job   349 on # 0 of server xlarge RUNNING
+SENT JCPL 520967 329 xlarge 0
+RCVD REDY
+t:     521736 job   343 on # 0 of server xlarge COMPLETED
+t:     521736 job   351 on # 0 of server xlarge RUNNING
+SENT JCPL 521736 343 xlarge 0
+RCVD REDY
+t:     522160 job   349 on # 0 of server xlarge COMPLETED
+t:     522160 job   359 on # 0 of server xlarge RUNNING
+SENT JCPL 522160 349 xlarge 0
+RCVD REDY
+t:     523518 job   359 on # 0 of server xlarge COMPLETED
+t:     523518 job   360 on # 0 of server xlarge RUNNING
+SENT JCPL 523518 359 xlarge 0
+RCVD REDY
+t:     523659 job   360 on # 0 of server xlarge COMPLETED
+t:     523659 job   363 on # 0 of server xlarge RUNNING
+SENT JCPL 523659 360 xlarge 0
+RCVD REDY
+t:     523961 job   363 on # 0 of server xlarge COMPLETED
+t:     523961 job   366 on # 0 of server xlarge RUNNING
+SENT JCPL 523961 363 xlarge 0
+RCVD REDY
+t:     530925 job   163 on # 0 of server medium COMPLETED
+t:     530925 job   187 on # 0 of server medium RUNNING
+SENT JCPL 530925 163 medium 0
+RCVD REDY
+t:     531051 job   187 on # 0 of server medium COMPLETED
+t:     531051 job   189 on # 0 of server medium RUNNING
+SENT JCPL 531051 187 medium 0
+RCVD REDY
+t:     531355 job   189 on # 0 of server medium COMPLETED
+t:     531355 job   200 on # 0 of server medium RUNNING
+SENT JCPL 531355 189 medium 0
+RCVD REDY
+t:     532161 job   200 on # 0 of server medium COMPLETED
+t:     532161 job   204 on # 0 of server medium RUNNING
+SENT JCPL 532161 200 medium 0
+RCVD REDY
+t:     532305 job   204 on # 0 of server medium COMPLETED
+t:     532305 job   208 on # 0 of server medium RUNNING
+SENT JCPL 532305 204 medium 0
+RCVD REDY
+t:     533495 job   208 on # 0 of server medium COMPLETED
+t:     533495 job   209 on # 0 of server medium RUNNING
+SENT JCPL 533495 208 medium 0
+RCVD REDY
+t:     533639 job   209 on # 0 of server medium COMPLETED
+t:     533639 job   215 on # 0 of server medium RUNNING
+SENT JCPL 533639 209 medium 0
+RCVD REDY
+t:     551711 job   351 on # 0 of server xlarge COMPLETED
+t:     551711 job   368 on # 0 of server xlarge RUNNING
+SENT JCPL 551711 351 xlarge 0
+RCVD REDY
+t:     551965 job   368 on # 0 of server xlarge COMPLETED
+t:     551965 job   377 on # 0 of server xlarge RUNNING
+SENT JCPL 551965 368 xlarge 0
+RCVD REDY
+t:     552630 job   377 on # 0 of server xlarge COMPLETED
+t:     552630 job   382 on # 0 of server xlarge RUNNING
+SENT JCPL 552630 377 xlarge 0
+RCVD REDY
+t:     554375 job   269 on # 0 of server tiny COMPLETED
+t:     554375 job   271 on # 0 of server tiny RUNNING
+SENT JCPL 554375 269 tiny 0
+RCVD REDY
+t:     554830 job   271 on # 0 of server tiny COMPLETED
+t:     554830 job   275 on # 0 of server tiny RUNNING
+SENT JCPL 554830 271 tiny 0
+RCVD REDY
+t:     554835 job   275 on # 0 of server tiny COMPLETED
+t:     554835 job   277 on # 0 of server tiny RUNNING
+SENT JCPL 554835 275 tiny 0
+RCVD REDY
+t:     555992 job   277 on # 0 of server tiny COMPLETED
+t:     555992 job   280 on # 0 of server tiny RUNNING
+SENT JCPL 555992 277 tiny 0
+RCVD REDY
+t:     557554 job   280 on # 0 of server tiny COMPLETED
+t:     557554 job   282 on # 0 of server tiny RUNNING
+SENT JCPL 557554 280 tiny 0
+RCVD REDY
+t:     557611 job   282 on # 0 of server tiny COMPLETED
+t:     557611 job   283 on # 0 of server tiny RUNNING
+SENT JCPL 557611 282 tiny 0
+RCVD REDY
+t:     557936 job   283 on # 0 of server tiny COMPLETED
+t:     557936 job   285 on # 0 of server tiny RUNNING
+SENT JCPL 557936 283 tiny 0
+RCVD REDY
+t:     558094 job   285 on # 0 of server tiny COMPLETED
+t:     558094 job   286 on # 0 of server tiny RUNNING
+SENT JCPL 558094 285 tiny 0
+RCVD REDY
+t:     559657 job   286 on # 0 of server tiny COMPLETED
+t:     559657 job   289 on # 0 of server tiny RUNNING
+SENT JCPL 559657 286 tiny 0
+RCVD REDY
+t:     560062 job   289 on # 0 of server tiny COMPLETED
+t:     560062 job   296 on # 0 of server tiny RUNNING
+SENT JCPL 560062 289 tiny 0
+RCVD REDY
+t:     560494 job   296 on # 0 of server tiny COMPLETED
+t:     560494 job   298 on # 0 of server tiny RUNNING
+SENT JCPL 560494 296 tiny 0
+RCVD REDY
+t:     560943 job   298 on # 0 of server tiny COMPLETED
+t:     560943 job   304 on # 0 of server tiny RUNNING
+SENT JCPL 560943 298 tiny 0
+RCVD REDY
+t:     561961 job   304 on # 0 of server tiny COMPLETED
+t:     561961 job   308 on # 0 of server tiny RUNNING
+SENT JCPL 561961 304 tiny 0
+RCVD REDY
+t:     562544 job   308 on # 0 of server tiny COMPLETED
+t:     562544 job   309 on # 0 of server tiny RUNNING
+SENT JCPL 562544 308 tiny 0
+RCVD REDY
+t:     562673 job   309 on # 0 of server tiny COMPLETED
+t:     562673 job   311 on # 0 of server tiny RUNNING
+SENT JCPL 562673 309 tiny 0
+RCVD REDY
+t:     564073 job   311 on # 0 of server tiny COMPLETED
+t:     564073 job   313 on # 0 of server tiny RUNNING
+SENT JCPL 564073 311 tiny 0
+RCVD REDY
+t:     564669 job   313 on # 0 of server tiny COMPLETED
+t:     564669 job   314 on # 0 of server tiny RUNNING
+SENT JCPL 564669 313 tiny 0
+RCVD REDY
+t:     584197 job   215 on # 0 of server medium COMPLETED
+t:     584197 job   218 on # 0 of server medium RUNNING
+SENT JCPL 584197 215 medium 0
+RCVD REDY
+t:     584546 job   218 on # 0 of server medium COMPLETED
+t:     584546 job   220 on # 0 of server medium RUNNING
+SENT JCPL 584546 218 medium 0
+RCVD REDY
+t:     584818 job   220 on # 0 of server medium COMPLETED
+t:     584818 job   222 on # 0 of server medium RUNNING
+SENT JCPL 584818 220 medium 0
+RCVD REDY
+t:     585260 job   222 on # 0 of server medium COMPLETED
+t:     585260 job   229 on # 0 of server medium RUNNING
+SENT JCPL 585260 222 medium 0
+RCVD REDY
+t:     587047 job   229 on # 0 of server medium COMPLETED
+t:     587047 job   232 on # 0 of server medium RUNNING
+SENT JCPL 587047 229 medium 0
+RCVD REDY
+t:     588679 job   232 on # 0 of server medium COMPLETED
+t:     588679 job   240 on # 0 of server medium RUNNING
+SENT JCPL 588679 232 medium 0
+RCVD REDY
+t:     609938 job   240 on # 0 of server medium COMPLETED
+t:     609938 job   243 on # 0 of server medium RUNNING
+SENT JCPL 609938 240 medium 0
+RCVD REDY
+t:     610346 job   243 on # 0 of server medium COMPLETED
+t:     610346 job   244 on # 0 of server medium RUNNING
+SENT JCPL 610346 243 medium 0
+RCVD REDY
+t:     610476 job   244 on # 0 of server medium COMPLETED
+t:     610476 job   250 on # 0 of server medium RUNNING
+SENT JCPL 610476 244 medium 0
+RCVD REDY
+t:     610987 job   250 on # 0 of server medium COMPLETED
+t:     610987 job   256 on # 0 of server medium RUNNING
+SENT JCPL 610987 250 medium 0
+RCVD REDY
+t:     611006 job   256 on # 0 of server medium COMPLETED
+t:     611006 job   264 on # 0 of server medium RUNNING
+SENT JCPL 611006 256 medium 0
+RCVD REDY
+t:     611145 job   264 on # 0 of server medium COMPLETED
+t:     611145 job   267 on # 0 of server medium RUNNING
+SENT JCPL 611145 264 medium 0
+RCVD REDY
+t:     613658 job   366 on # 0 of server xlarge COMPLETED
+t:     613658 job   383 on # 0 of server xlarge RUNNING
+SENT JCPL 613658 366 xlarge 0
+RCVD REDY
+t:     613965 job   383 on # 0 of server xlarge COMPLETED
+SENT JCPL 613965 383 xlarge 0
+RCVD REDY
+t:     652265 job   382 on # 0 of server xlarge COMPLETED
+t:     652265 job   386 on # 0 of server xlarge RUNNING
+SENT JCPL 652265 382 xlarge 0
+RCVD REDY
+t:     652397 job   386 on # 0 of server xlarge COMPLETED
+t:     652397 job   388 on # 0 of server xlarge RUNNING
+SENT JCPL 652397 386 xlarge 0
+RCVD REDY
+t:     652408 job   388 on # 0 of server xlarge COMPLETED
+t:     652408 job   391 on # 0 of server xlarge RUNNING
+SENT JCPL 652408 388 xlarge 0
+RCVD REDY
+t:     652998 job   267 on # 0 of server medium COMPLETED
+t:     652998 job   273 on # 0 of server medium RUNNING
+SENT JCPL 652998 267 medium 0
+RCVD REDY
+t:     653492 job   273 on # 0 of server medium COMPLETED
+t:     653492 job   276 on # 0 of server medium RUNNING
+SENT JCPL 653492 273 medium 0
+RCVD REDY
+t:     653661 job   276 on # 0 of server medium COMPLETED
+t:     653661 job   284 on # 0 of server medium RUNNING
+SENT JCPL 653661 276 medium 0
+RCVD REDY
+t:     653700 job   391 on # 0 of server xlarge COMPLETED
+t:     653700 job   393 on # 0 of server xlarge RUNNING
+t:     653700 job   394 on # 0 of server xlarge RUNNING
+SENT JCPL 653700 391 xlarge 0
+RCVD REDY
+t:     653807 job   284 on # 0 of server medium COMPLETED
+t:     653807 job   288 on # 0 of server medium RUNNING
+SENT JCPL 653807 284 medium 0
+RCVD REDY
+t:     654002 job   393 on # 0 of server xlarge COMPLETED
+t:     654002 job   398 on # 0 of server xlarge RUNNING
+SENT JCPL 654002 393 xlarge 0
+RCVD REDY
+t:     654313 job   398 on # 0 of server xlarge COMPLETED
+t:     654313 job   419 on # 0 of server xlarge RUNNING
+SENT JCPL 654313 398 xlarge 0
+RCVD REDY
+t:     654561 job   288 on # 0 of server medium COMPLETED
+t:     654561 job   300 on # 0 of server medium RUNNING
+SENT JCPL 654561 288 medium 0
+RCVD REDY
+t:     654755 job   419 on # 0 of server xlarge COMPLETED
+SENT JCPL 654755 419 xlarge 0
+RCVD REDY
+t:     655277 job   394 on # 0 of server xlarge COMPLETED
+t:     655277 job   425 on # 0 of server xlarge RUNNING
+SENT JCPL 655277 394 xlarge 0
+RCVD REDY
+t:     655279 job   314 on # 0 of server tiny COMPLETED
+t:     655279 job   320 on # 0 of server tiny RUNNING
+SENT JCPL 655279 314 tiny 0
+RCVD REDY
+t:     655281 job   425 on # 0 of server xlarge COMPLETED
+t:     655281 job   433 on # 0 of server xlarge RUNNING
+t:     655281 job   443 on # 0 of server xlarge RUNNING
+SENT JCPL 655281 425 xlarge 0
+RCVD REDY
+t:     655291 job   433 on # 0 of server xlarge COMPLETED
+t:     655291 job   446 on # 0 of server xlarge RUNNING
+SENT JCPL 655291 433 xlarge 0
+RCVD REDY
+t:     655554 job   320 on # 0 of server tiny COMPLETED
+t:     655554 job   322 on # 0 of server tiny RUNNING
+SENT JCPL 655554 320 tiny 0
+RCVD REDY
+t:     655600 job   446 on # 0 of server xlarge COMPLETED
+t:     655600 job   452 on # 0 of server xlarge RUNNING
+SENT JCPL 655600 446 xlarge 0
+RCVD REDY
+t:     655651 job   322 on # 0 of server tiny COMPLETED
+t:     655651 job   330 on # 0 of server tiny RUNNING
+SENT JCPL 655651 322 tiny 0
+RCVD REDY
+t:     655696 job   330 on # 0 of server tiny COMPLETED
+t:     655696 job   334 on # 0 of server tiny RUNNING
+SENT JCPL 655696 330 tiny 0
+RCVD REDY
+t:     655871 job   452 on # 0 of server xlarge COMPLETED
+SENT JCPL 655871 452 xlarge 0
+RCVD REDY
+t:     655922 job   300 on # 0 of server medium COMPLETED
+t:     655922 job   302 on # 0 of server medium RUNNING
+SENT JCPL 655922 300 medium 0
+RCVD REDY
+t:     656309 job   302 on # 0 of server medium COMPLETED
+t:     656309 job   305 on # 0 of server medium RUNNING
+SENT JCPL 656309 302 medium 0
+RCVD REDY
+t:     656452 job   443 on # 0 of server xlarge COMPLETED
+t:     656452 job   453 on # 0 of server xlarge RUNNING
+t:     656452 job   457 on # 0 of server xlarge RUNNING
+SENT JCPL 656452 443 xlarge 0
+RCVD REDY
+t:     656472 job   457 on # 0 of server xlarge COMPLETED
+SENT JCPL 656472 457 xlarge 0
+RCVD REDY
+t:     656580 job   453 on # 0 of server xlarge COMPLETED
+t:     656580 job   461 on # 0 of server xlarge RUNNING
+t:     656580 job   469 on # 0 of server xlarge RUNNING
+SENT JCPL 656580 453 xlarge 0
+RCVD REDY
+t:     657002 job   334 on # 0 of server tiny COMPLETED
+t:     657002 job   336 on # 0 of server tiny RUNNING
+SENT JCPL 657002 334 tiny 0
+RCVD REDY
+t:     657008 job   336 on # 0 of server tiny COMPLETED
+t:     657008 job   337 on # 0 of server tiny RUNNING
+SENT JCPL 657008 336 tiny 0
+RCVD REDY
+t:     657154 job   469 on # 0 of server xlarge COMPLETED
+SENT JCPL 657154 469 xlarge 0
+RCVD REDY
+t:     657728 job   461 on # 0 of server xlarge COMPLETED
+t:     657728 job   475 on # 0 of server xlarge RUNNING
+SENT JCPL 657728 461 xlarge 0
+RCVD REDY
+t:     657860 job   305 on # 0 of server medium COMPLETED
+t:     657860 job   315 on # 0 of server medium RUNNING
+SENT JCPL 657860 305 medium 0
+RCVD REDY
+t:     658434 job   315 on # 0 of server medium COMPLETED
+t:     658434 job   321 on # 0 of server medium RUNNING
+SENT JCPL 658434 315 medium 0
+RCVD REDY
+t:     658987 job   321 on # 0 of server medium COMPLETED
+t:     658987 job   323 on # 0 of server medium RUNNING
+SENT JCPL 658987 321 medium 0
+RCVD REDY
+t:     659410 job   323 on # 0 of server medium COMPLETED
+t:     659410 job   332 on # 0 of server medium RUNNING
+SENT JCPL 659410 323 medium 0
+RCVD REDY
+t:     659508 job   475 on # 0 of server xlarge COMPLETED
+t:     659508 job   478 on # 0 of server xlarge RUNNING
+SENT JCPL 659508 475 xlarge 0
+RCVD REDY
+t:     659748 job   332 on # 0 of server medium COMPLETED
+t:     659748 job   345 on # 0 of server medium RUNNING
+SENT JCPL 659748 332 medium 0
+RCVD REDY
+t:     659932 job   478 on # 0 of server xlarge COMPLETED
+t:     659932 job   479 on # 0 of server xlarge RUNNING
+SENT JCPL 659932 478 xlarge 0
+RCVD REDY
+t:     660089 job   479 on # 0 of server xlarge COMPLETED
+t:     660089 job   480 on # 0 of server xlarge RUNNING
+SENT JCPL 660089 479 xlarge 0
+RCVD REDY
+t:     660184 job   345 on # 0 of server medium COMPLETED
+t:     660184 job   346 on # 0 of server medium RUNNING
+SENT JCPL 660184 345 medium 0
+RCVD REDY
+t:     660620 job   480 on # 0 of server xlarge COMPLETED
+t:     660620 job   482 on # 0 of server xlarge RUNNING
+t:     660620 job   485 on # 0 of server xlarge RUNNING
+SENT JCPL 660620 480 xlarge 0
+RCVD REDY
+t:     660633 job   482 on # 0 of server xlarge COMPLETED
+t:     660633 job   495 on # 0 of server xlarge RUNNING
+SENT JCPL 660633 482 xlarge 0
+RCVD REDY
+t:     660683 job   495 on # 0 of server xlarge COMPLETED
+SENT JCPL 660683 495 xlarge 0
+RCVD REDY
+t:     660747 job   485 on # 0 of server xlarge COMPLETED
+SENT JCPL 660747 485 xlarge 0
+RCVD REDY
+t:     660791 job   346 on # 0 of server medium COMPLETED
+t:     660791 job   347 on # 0 of server medium RUNNING
+SENT JCPL 660791 346 medium 0
+RCVD REDY
+t:     701474 job   347 on # 0 of server medium COMPLETED
+t:     701474 job   350 on # 0 of server medium RUNNING
+SENT JCPL 701474 347 medium 0
+RCVD REDY
+t:     701893 job   350 on # 0 of server medium COMPLETED
+t:     701893 job   352 on # 0 of server medium RUNNING
+SENT JCPL 701893 350 medium 0
+RCVD REDY
+t:     703153 job   352 on # 0 of server medium COMPLETED
+t:     703153 job   353 on # 0 of server medium RUNNING
+SENT JCPL 703153 352 medium 0
+RCVD REDY
+t:     736761 job   337 on # 0 of server tiny COMPLETED
+t:     736761 job   340 on # 0 of server tiny RUNNING
+SENT JCPL 736761 337 tiny 0
+RCVD REDY
+t:     737719 job   340 on # 0 of server tiny COMPLETED
+t:     737719 job   348 on # 0 of server tiny RUNNING
+SENT JCPL 737719 340 tiny 0
+RCVD REDY
+t:     737781 job   348 on # 0 of server tiny COMPLETED
+t:     737781 job   354 on # 0 of server tiny RUNNING
+SENT JCPL 737781 348 tiny 0
+RCVD REDY
+t:     739288 job   354 on # 0 of server tiny COMPLETED
+t:     739288 job   355 on # 0 of server tiny RUNNING
+SENT JCPL 739288 354 tiny 0
+RCVD REDY
+t:     758512 job   353 on # 0 of server medium COMPLETED
+t:     758512 job   361 on # 0 of server medium RUNNING
+SENT JCPL 758512 353 medium 0
+RCVD REDY
+t:     758571 job   361 on # 0 of server medium COMPLETED
+t:     758571 job   367 on # 0 of server medium RUNNING
+SENT JCPL 758571 361 medium 0
+RCVD REDY
+t:     758918 job   367 on # 0 of server medium COMPLETED
+t:     758918 job   370 on # 0 of server medium RUNNING
+SENT JCPL 758918 367 medium 0
+RCVD REDY
+t:     758922 job   370 on # 0 of server medium COMPLETED
+t:     758922 job   392 on # 0 of server medium RUNNING
+SENT JCPL 758922 370 medium 0
+RCVD REDY
+t:     759500 job   392 on # 0 of server medium COMPLETED
+t:     759500 job   397 on # 0 of server medium RUNNING
+SENT JCPL 759500 392 medium 0
+RCVD REDY
+t:     761181 job   397 on # 0 of server medium COMPLETED
+t:     761181 job   400 on # 0 of server medium RUNNING
+SENT JCPL 761181 397 medium 0
+RCVD REDY
+t:     761244 job   400 on # 0 of server medium COMPLETED
+t:     761244 job   405 on # 0 of server medium RUNNING
+SENT JCPL 761244 400 medium 0
+RCVD REDY
+t:     761266 job   405 on # 0 of server medium COMPLETED
+t:     761266 job   410 on # 0 of server medium RUNNING
+SENT JCPL 761266 405 medium 0
+RCVD REDY
+t:     762400 job   410 on # 0 of server medium COMPLETED
+t:     762400 job   412 on # 0 of server medium RUNNING
+SENT JCPL 762400 410 medium 0
+RCVD REDY
+t:     762423 job   412 on # 0 of server medium COMPLETED
+t:     762423 job   416 on # 0 of server medium RUNNING
+SENT JCPL 762423 412 medium 0
+RCVD REDY
+t:     808216 job   416 on # 0 of server medium COMPLETED
+t:     808216 job   422 on # 0 of server medium RUNNING
+SENT JCPL 808216 416 medium 0
+RCVD REDY
+t:     808562 job   422 on # 0 of server medium COMPLETED
+t:     808562 job   424 on # 0 of server medium RUNNING
+SENT JCPL 808562 422 medium 0
+RCVD REDY
+t:     833281 job   355 on # 0 of server tiny COMPLETED
+t:     833281 job   356 on # 0 of server tiny RUNNING
+SENT JCPL 833281 355 tiny 0
+RCVD REDY
+t:     834392 job   356 on # 0 of server tiny COMPLETED
+t:     834392 job   357 on # 0 of server tiny RUNNING
+SENT JCPL 834392 356 tiny 0
+RCVD REDY
+t:     834707 job   357 on # 0 of server tiny COMPLETED
+t:     834707 job   358 on # 0 of server tiny RUNNING
+SENT JCPL 834707 357 tiny 0
+RCVD REDY
+t:     835575 job   358 on # 0 of server tiny COMPLETED
+t:     835575 job   364 on # 0 of server tiny RUNNING
+SENT JCPL 835575 358 tiny 0
+RCVD REDY
+t:     835685 job   364 on # 0 of server tiny COMPLETED
+t:     835685 job   365 on # 0 of server tiny RUNNING
+SENT JCPL 835685 364 tiny 0
+RCVD REDY
+t:     835802 job   365 on # 0 of server tiny COMPLETED
+t:     835802 job   373 on # 0 of server tiny RUNNING
+SENT JCPL 835802 365 tiny 0
+RCVD REDY
+t:     836060 job   373 on # 0 of server tiny COMPLETED
+t:     836060 job   378 on # 0 of server tiny RUNNING
+SENT JCPL 836060 373 tiny 0
+RCVD REDY
+t:     854328 job   378 on # 0 of server tiny COMPLETED
+t:     854328 job   379 on # 0 of server tiny RUNNING
+SENT JCPL 854328 378 tiny 0
+RCVD REDY
+t:     854795 job   379 on # 0 of server tiny COMPLETED
+t:     854795 job   381 on # 0 of server tiny RUNNING
+SENT JCPL 854795 379 tiny 0
+RCVD REDY
+t:     855418 job   381 on # 0 of server tiny COMPLETED
+t:     855418 job   384 on # 0 of server tiny RUNNING
+SENT JCPL 855418 381 tiny 0
+RCVD REDY
+t:     855534 job   384 on # 0 of server tiny COMPLETED
+t:     855534 job   385 on # 0 of server tiny RUNNING
+SENT JCPL 855534 384 tiny 0
+RCVD REDY
+t:     855556 job   385 on # 0 of server tiny COMPLETED
+t:     855556 job   387 on # 0 of server tiny RUNNING
+SENT JCPL 855556 385 tiny 0
+RCVD REDY
+t:     855562 job   387 on # 0 of server tiny COMPLETED
+t:     855562 job   389 on # 0 of server tiny RUNNING
+SENT JCPL 855562 387 tiny 0
+RCVD REDY
+t:     855577 job   389 on # 0 of server tiny COMPLETED
+t:     855577 job   390 on # 0 of server tiny RUNNING
+SENT JCPL 855577 389 tiny 0
+RCVD REDY
+t:     855693 job   390 on # 0 of server tiny COMPLETED
+t:     855693 job   395 on # 0 of server tiny RUNNING
+SENT JCPL 855693 390 tiny 0
+RCVD REDY
+t:     856578 job   395 on # 0 of server tiny COMPLETED
+t:     856578 job   399 on # 0 of server tiny RUNNING
+SENT JCPL 856578 395 tiny 0
+RCVD REDY
+t:     857237 job   399 on # 0 of server tiny COMPLETED
+t:     857237 job   402 on # 0 of server tiny RUNNING
+SENT JCPL 857237 399 tiny 0
+RCVD REDY
+t:     857715 job   402 on # 0 of server tiny COMPLETED
+t:     857715 job   403 on # 0 of server tiny RUNNING
+SENT JCPL 857715 402 tiny 0
+RCVD REDY
+t:     857812 job   403 on # 0 of server tiny COMPLETED
+t:     857812 job   407 on # 0 of server tiny RUNNING
+SENT JCPL 857812 403 tiny 0
+RCVD REDY
+t:     857912 job   407 on # 0 of server tiny COMPLETED
+t:     857912 job   408 on # 0 of server tiny RUNNING
+SENT JCPL 857912 407 tiny 0
+RCVD REDY
+t:     858985 job   408 on # 0 of server tiny COMPLETED
+t:     858985 job   413 on # 0 of server tiny RUNNING
+SENT JCPL 858985 408 tiny 0
+RCVD REDY
+t:     859418 job   413 on # 0 of server tiny COMPLETED
+t:     859418 job   414 on # 0 of server tiny RUNNING
+SENT JCPL 859418 413 tiny 0
+RCVD REDY
+t:     859472 job   414 on # 0 of server tiny COMPLETED
+t:     859472 job   415 on # 0 of server tiny RUNNING
+SENT JCPL 859472 414 tiny 0
+RCVD REDY
+t:     860216 job   415 on # 0 of server tiny COMPLETED
+t:     860216 job   418 on # 0 of server tiny RUNNING
+SENT JCPL 860216 415 tiny 0
+RCVD REDY
+t:     860286 job   418 on # 0 of server tiny COMPLETED
+t:     860286 job   420 on # 0 of server tiny RUNNING
+SENT JCPL 860286 418 tiny 0
+RCVD REDY
+t:     860634 job   420 on # 0 of server tiny COMPLETED
+t:     860634 job   421 on # 0 of server tiny RUNNING
+SENT JCPL 860634 420 tiny 0
+RCVD REDY
+t:     862252 job   421 on # 0 of server tiny COMPLETED
+t:     862252 job   426 on # 0 of server tiny RUNNING
+SENT JCPL 862252 421 tiny 0
+RCVD REDY
+t:     862256 job   426 on # 0 of server tiny COMPLETED
+t:     862256 job   429 on # 0 of server tiny RUNNING
+SENT JCPL 862256 426 tiny 0
+RCVD REDY
+t:     862269 job   429 on # 0 of server tiny COMPLETED
+t:     862269 job   431 on # 0 of server tiny RUNNING
+SENT JCPL 862269 429 tiny 0
+RCVD REDY
+t:     863513 job   431 on # 0 of server tiny COMPLETED
+t:     863513 job   434 on # 0 of server tiny RUNNING
+SENT JCPL 863513 431 tiny 0
+RCVD REDY
+t:     864308 job   434 on # 0 of server tiny COMPLETED
+t:     864308 job   435 on # 0 of server tiny RUNNING
+SENT JCPL 864308 434 tiny 0
+RCVD REDY
+t:     864445 job   435 on # 0 of server tiny COMPLETED
+t:     864445 job   436 on # 0 of server tiny RUNNING
+SENT JCPL 864445 435 tiny 0
+RCVD REDY
+t:     864519 job   436 on # 0 of server tiny COMPLETED
+t:     864519 job   437 on # 0 of server tiny RUNNING
+SENT JCPL 864519 436 tiny 0
+RCVD REDY
+t:     864818 job   437 on # 0 of server tiny COMPLETED
+t:     864818 job   438 on # 0 of server tiny RUNNING
+SENT JCPL 864818 437 tiny 0
+RCVD REDY
+t:     864829 job   438 on # 0 of server tiny COMPLETED
+t:     864829 job   440 on # 0 of server tiny RUNNING
+SENT JCPL 864829 438 tiny 0
+RCVD REDY
+t:     865255 job   440 on # 0 of server tiny COMPLETED
+t:     865255 job   441 on # 0 of server tiny RUNNING
+SENT JCPL 865255 440 tiny 0
+RCVD REDY
+t:     887165 job   441 on # 0 of server tiny COMPLETED
+t:     887165 job   442 on # 0 of server tiny RUNNING
+SENT JCPL 887165 441 tiny 0
+RCVD REDY
+t:     887202 job   442 on # 0 of server tiny COMPLETED
+t:     887202 job   445 on # 0 of server tiny RUNNING
+SENT JCPL 887202 442 tiny 0
+RCVD REDY
+t:     887336 job   445 on # 0 of server tiny COMPLETED
+t:     887336 job   448 on # 0 of server tiny RUNNING
+SENT JCPL 887336 445 tiny 0
+RCVD REDY
+t:     908323 job   424 on # 0 of server medium COMPLETED
+t:     908323 job   428 on # 0 of server medium RUNNING
+SENT JCPL 908323 424 medium 0
+RCVD REDY
+t:     909486 job   428 on # 0 of server medium COMPLETED
+t:     909486 job   430 on # 0 of server medium RUNNING
+SENT JCPL 909486 428 medium 0
+RCVD REDY
+t:     909744 job   430 on # 0 of server medium COMPLETED
+t:     909744 job   439 on # 0 of server medium RUNNING
+SENT JCPL 909744 430 medium 0
+RCVD REDY
+t:     910308 job   439 on # 0 of server medium COMPLETED
+t:     910308 job   444 on # 0 of server medium RUNNING
+SENT JCPL 910308 439 medium 0
+RCVD REDY
+t:     910447 job   444 on # 0 of server medium COMPLETED
+t:     910447 job   449 on # 0 of server medium RUNNING
+SENT JCPL 910447 444 medium 0
+RCVD REDY
+t:     911192 job   449 on # 0 of server medium COMPLETED
+t:     911192 job   450 on # 0 of server medium RUNNING
+SENT JCPL 911192 449 medium 0
+RCVD REDY
+t:     911484 job   450 on # 0 of server medium COMPLETED
+t:     911484 job   462 on # 0 of server medium RUNNING
+SENT JCPL 911484 450 medium 0
+RCVD REDY
+t:     911524 job   462 on # 0 of server medium COMPLETED
+t:     911524 job   464 on # 0 of server medium RUNNING
+SENT JCPL 911524 462 medium 0
+RCVD REDY
+t:     911637 job   464 on # 0 of server medium COMPLETED
+t:     911637 job   467 on # 0 of server medium RUNNING
+SENT JCPL 911637 464 medium 0
+RCVD REDY
+t:     911664 job   467 on # 0 of server medium COMPLETED
+t:     911664 job   468 on # 0 of server medium RUNNING
+SENT JCPL 911664 467 medium 0
+RCVD REDY
+t:     911802 job   468 on # 0 of server medium COMPLETED
+t:     911802 job   471 on # 0 of server medium RUNNING
+SENT JCPL 911802 468 medium 0
+RCVD REDY
+t:     911927 job   471 on # 0 of server medium COMPLETED
+t:     911927 job   477 on # 0 of server medium RUNNING
+SENT JCPL 911927 471 medium 0
+RCVD REDY
+t:     912153 job   477 on # 0 of server medium COMPLETED
+t:     912153 job   486 on # 0 of server medium RUNNING
+SENT JCPL 912153 477 medium 0
+RCVD REDY
+t:     913700 job   486 on # 0 of server medium COMPLETED
+t:     913700 job   489 on # 0 of server medium RUNNING
+SENT JCPL 913700 486 medium 0
+RCVD REDY
+t:     913742 job   489 on # 0 of server medium COMPLETED
+t:     913742 job   494 on # 0 of server medium RUNNING
+SENT JCPL 913742 489 medium 0
+RCVD REDY
+t:     914356 job   494 on # 0 of server medium COMPLETED
+t:     914356 job   497 on # 0 of server medium RUNNING
+SENT JCPL 914356 494 medium 0
+RCVD REDY
+t:     914363 job   497 on # 0 of server medium COMPLETED
+t:     914363 job   498 on # 0 of server medium RUNNING
+SENT JCPL 914363 497 medium 0
+RCVD REDY
+t:     914760 job   498 on # 0 of server medium COMPLETED
+SENT JCPL 914760 498 medium 0
+RCVD REDY
+t:     969562 job   448 on # 0 of server tiny COMPLETED
+t:     969562 job   451 on # 0 of server tiny RUNNING
+SENT JCPL 969562 448 tiny 0
+RCVD REDY
+t:     969686 job   451 on # 0 of server tiny COMPLETED
+t:     969686 job   455 on # 0 of server tiny RUNNING
+SENT JCPL 969686 451 tiny 0
+RCVD REDY
+t:     969793 job   455 on # 0 of server tiny COMPLETED
+t:     969793 job   466 on # 0 of server tiny RUNNING
+SENT JCPL 969793 455 tiny 0
+RCVD REDY
+t:    1018830 job   466 on # 0 of server tiny COMPLETED
+t:    1018830 job   470 on # 0 of server tiny RUNNING
+SENT JCPL 1018830 466 tiny 0
+RCVD REDY
+t:    1020236 job   470 on # 0 of server tiny COMPLETED
+t:    1020236 job   472 on # 0 of server tiny RUNNING
+SENT JCPL 1020236 470 tiny 0
+RCVD REDY
+t:    1020270 job   472 on # 0 of server tiny COMPLETED
+t:    1020270 job   474 on # 0 of server tiny RUNNING
+SENT JCPL 1020270 472 tiny 0
+RCVD REDY
+t:    1021684 job   474 on # 0 of server tiny COMPLETED
+t:    1021684 job   476 on # 0 of server tiny RUNNING
+SENT JCPL 1021684 474 tiny 0
+RCVD REDY
+t:    1021700 job   476 on # 0 of server tiny COMPLETED
+t:    1021700 job   490 on # 0 of server tiny RUNNING
+SENT JCPL 1021700 476 tiny 0
+RCVD REDY
+t:    1022258 job   490 on # 0 of server tiny COMPLETED
+t:    1022258 job   491 on # 0 of server tiny RUNNING
+SENT JCPL 1022258 490 tiny 0
+RCVD REDY
+t:    1022471 job   491 on # 0 of server tiny COMPLETED
+t:    1022471 job   492 on # 0 of server tiny RUNNING
+SENT JCPL 1022471 491 tiny 0
+RCVD REDY
+t:    1023630 job   492 on # 0 of server tiny COMPLETED
+t:    1023630 job   496 on # 0 of server tiny RUNNING
+SENT JCPL 1023630 492 tiny 0
+RCVD REDY
+t:    1023926 job   496 on # 0 of server tiny COMPLETED
+SENT JCPL 1023926 496 tiny 0
+RCVD REDY
+SENT NONE
+RCVD QUIT
+SENT QUIT
+# -------------------------------------------------------------------------------------
+# 1 tiny servers used with a utilisation of 100.00 at the cost of $28.44
+# 1 small servers used with a utilisation of 100.00 at the cost of $13.51
+# 1 medium servers used with a utilisation of 100.00 at the cost of $101.63
+# 1 large servers used with a utilisation of 100.00 at the cost of $0.27
+# 1 xlarge servers used with a utilisation of 100.00 at the cost of $293.55
+# ==================================== [ Summary ] ====================================
+# actual simulation end time: 1023926, #jobs: 500 (failed 0 times)
+# total #servers used: 5, avg util: 100.00% (ef. usage: 100.00%), total cost: $437.40
+# avg waiting time: 371351, avg exec time: 6322, avg turnaround time: 377673

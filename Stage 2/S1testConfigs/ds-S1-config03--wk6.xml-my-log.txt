@@ -1,0 +1,473 @@
+# ds-sim server 28-Feb, 2023 @ MQ - client-server
+# Server-side simulator started with './ds-server -c ./S1testConfigs/ds-S1-config03--wk6.xml -v brief -n'
+# Waiting for connection to port 50000 of IP address 127.0.0.1
+RCVD HELO
+SENT OK
+RCVD AUTH bdclark1999
+# Welcome  bdclark1999!
+# The system information can be read from 'ds-system.xml'
+SENT OK
+RCVD REDY
+SENT JOBN 37 0 1621 3 700 3800
+RCVD SCHD 0 medium 0
+t:         37 job     0 (waiting) on # 0 of server medium (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 60 1 521 2 1500 2900
+RCVD SCHD 1 medium 0
+t:         60 job     1 (waiting) on # 0 of server medium (booting) SCHEDULED
+SENT OK
+RCVD REDY
+t:         67 job     0 on # 0 of server medium RUNNING
+SENT JOBN 76 2 877 2 1500 2100
+RCVD SCHD 2 medium 0
+t:         76 job     2 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 111 3 53 4 1800 5100
+RCVD SCHD 3 medium 0
+t:        111 job     3 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 147 4 95 1 100 2000
+RCVD SCHD 4 medium 0
+t:        147 job     4 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 186 5 260 3 2700 2600
+RCVD SCHD 5 medium 0
+t:        186 job     5 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 228 6 5774 4 4000 7600
+RCVD SCHD 6 medium 0
+t:        228 job     6 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 255 7 911 2 500 2100
+RCVD SCHD 7 medium 0
+t:        255 job     7 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 279 8 1006 1 100 800
+RCVD SCHD 8 medium 0
+t:        279 job     8 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 284 9 362 2 600 1500
+RCVD SCHD 9 medium 0
+t:        284 job     9 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 286 10 231 1 100 1600
+RCVD SCHD 10 medium 0
+t:        286 job    10 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 298 11 29 1 500 600
+RCVD SCHD 11 medium 0
+t:        298 job    11 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 300 12 51 1 700 400
+RCVD SCHD 12 medium 0
+t:        300 job    12 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 302 13 9 3 1900 500
+RCVD SCHD 13 medium 0
+t:        302 job    13 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 307 14 10 4 3500 3900
+RCVD SCHD 14 medium 0
+t:        307 job    14 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 310 15 207 2 2000 3500
+RCVD SCHD 15 medium 0
+t:        310 job    15 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 316 16 5237 2 1300 1200
+RCVD SCHD 16 medium 0
+t:        316 job    16 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 320 17 1382 6 5700 10900
+RCVD SCHD 17 large 0
+t:        320 job    17 (waiting) on # 0 of server large (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 322 18 9 4 3200 6400
+RCVD SCHD 18 medium 0
+t:        322 job    18 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 325 19 16 8 6000 4500
+RCVD SCHD 19 large 0
+t:        325 job    19 (waiting) on # 0 of server large (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 329 20 104 7 7200 12000
+RCVD SCHD 20 large 0
+t:        329 job    20 (waiting) on # 0 of server large (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 332 21 95 3 500 2800
+RCVD SCHD 21 medium 0
+t:        332 job    21 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 336 22 681 4 1100 900
+RCVD SCHD 22 medium 0
+t:        336 job    22 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 336 23 2330 2 500 1900
+RCVD SCHD 23 medium 0
+t:        336 job    23 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 340 24 587 15 13900 21200
+RCVD SCHD 24 super 0
+t:        340 job    24 (waiting) on # 0 of server super (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 342 25 758 2 1500 3700
+RCVD SCHD 25 medium 0
+t:        342 job    25 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 346 26 6 12 23800 44300
+RCVD SCHD 26 super 0
+t:        346 job    26 (waiting) on # 0 of server super (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 347 27 667 4 3300 2900
+RCVD SCHD 27 medium 0
+t:        347 job    27 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:        350 job    17 on # 0 of server large RUNNING
+SENT JOBN 351 28 674 4 1300 2800
+RCVD SCHD 28 medium 0
+t:        351 job    28 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 360 29 3 13 11900 50100
+RCVD SCHD 29 super 0
+t:        360 job    29 (waiting) on # 0 of server super (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 362 30 798 12 1900 13400
+RCVD SCHD 30 super 0
+t:        362 job    30 (waiting) on # 0 of server super (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 362 31 3294 7 3200 11600
+RCVD SCHD 31 super 0
+t:        362 job    31 (waiting) on # 0 of server super (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 393 32 1167 2 1000 3000
+RCVD SCHD 32 medium 0
+t:        393 job    32 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 394 33 431 1 1000 1600
+RCVD SCHD 33 medium 0
+t:        394 job    33 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 427 34 1944 1 700 100
+RCVD SCHD 34 medium 0
+t:        427 job    34 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:        430 job    24 on # 0 of server super RUNNING
+SENT JOBN 434 35 217 1 700 900
+RCVD SCHD 35 medium 0
+t:        434 job    35 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 464 36 515 2 1600 3200
+RCVD SCHD 36 medium 0
+t:        464 job    36 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 475 37 324 7 5600 3900
+RCVD SCHD 37 super 0
+t:        475 job    37 (waiting) on # 0 of server super (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 477 38 821 1 1000 200
+RCVD SCHD 38 medium 0
+t:        477 job    38 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 491 39 364 1 1000 1000
+RCVD SCHD 39 medium 0
+t:        491 job    39 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 501 40 48 4 4200 5900
+RCVD SCHD 40 medium 0
+t:        501 job    40 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 502 41 212 4 1500 700
+RCVD SCHD 41 medium 0
+t:        502 job    41 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 502 42 111 1 300 1400
+RCVD SCHD 42 medium 0
+t:        502 job    42 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 505 43 232 12 15900 16000
+RCVD SCHD 43 super 0
+t:        505 job    43 (waiting) on # 0 of server super (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 514 44 182 10 6000 36100
+RCVD SCHD 44 super 0
+t:        514 job    44 (waiting) on # 0 of server super (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 628 45 134 1 6000 6000
+RCVD SCHD 45 medium 0
+t:        628 job    45 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 660 46 178 1 400 1000
+RCVD SCHD 46 medium 0
+t:        660 job    46 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 677 47 485 1 800 1700
+RCVD SCHD 47 medium 0
+t:        677 job    47 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 687 48 2276 3 3000 2500
+RCVD SCHD 48 medium 0
+t:        687 job    48 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 714 49 107 4 3300 7900
+RCVD SCHD 49 medium 0
+t:        714 job    49 (waiting) on # 0 of server medium (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:        738 job    24 on # 0 of server super COMPLETED
+t:        738 job    26 on # 0 of server super RUNNING
+SENT JCPL 738 24 super 0
+RCVD REDY
+t:        811 job    26 on # 0 of server super COMPLETED
+t:        811 job    29 on # 0 of server super RUNNING
+SENT JCPL 811 26 super 0
+RCVD REDY
+t:        845 job    29 on # 0 of server super COMPLETED
+t:        845 job    30 on # 0 of server super RUNNING
+SENT JCPL 845 29 super 0
+RCVD REDY
+t:       1158 job    17 on # 0 of server large COMPLETED
+t:       1158 job    19 on # 0 of server large RUNNING
+SENT JCPL 1158 17 large 0
+RCVD REDY
+t:       1348 job    30 on # 0 of server super COMPLETED
+t:       1348 job    31 on # 0 of server super RUNNING
+t:       1348 job    37 on # 0 of server super RUNNING
+SENT JCPL 1348 30 super 0
+RCVD REDY
+t:       1524 job    37 on # 0 of server super COMPLETED
+SENT JCPL 1524 37 super 0
+RCVD REDY
+t:       1555 job    19 on # 0 of server large COMPLETED
+t:       1555 job    20 on # 0 of server large RUNNING
+SENT JCPL 1555 19 large 0
+RCVD REDY
+t:       1699 job     0 on # 0 of server medium COMPLETED
+t:       1699 job     1 on # 0 of server medium RUNNING
+t:       1699 job     2 on # 0 of server medium RUNNING
+SENT JCPL 1699 0 medium 0
+RCVD REDY
+t:       1736 job    20 on # 0 of server large COMPLETED
+SENT JCPL 1736 20 large 0
+RCVD REDY
+t:       2037 job     1 on # 0 of server medium COMPLETED
+SENT JCPL 2037 1 medium 0
+RCVD REDY
+t:       3362 job    31 on # 0 of server super COMPLETED
+t:       3362 job    43 on # 0 of server super RUNNING
+SENT JCPL 3362 31 super 0
+RCVD REDY
+t:       3433 job     2 on # 0 of server medium COMPLETED
+t:       3433 job     3 on # 0 of server medium RUNNING
+SENT JCPL 3433 2 medium 0
+RCVD REDY
+t:       3500 job    43 on # 0 of server super COMPLETED
+t:       3500 job    44 on # 0 of server super RUNNING
+SENT JCPL 3500 43 super 0
+RCVD REDY
+t:       3603 job    44 on # 0 of server super COMPLETED
+SENT JCPL 3603 44 super 0
+RCVD REDY
+t:       6312 job     3 on # 0 of server medium COMPLETED
+t:       6312 job     4 on # 0 of server medium RUNNING
+t:       6312 job     5 on # 0 of server medium RUNNING
+SENT JCPL 6312 3 medium 0
+RCVD REDY
+t:       6475 job     4 on # 0 of server medium COMPLETED
+SENT JCPL 6475 4 medium 0
+RCVD REDY
+t:       6585 job     5 on # 0 of server medium COMPLETED
+t:       6585 job     6 on # 0 of server medium RUNNING
+SENT JCPL 6585 5 medium 0
+RCVD REDY
+t:       9613 job     6 on # 0 of server medium COMPLETED
+t:       9613 job     7 on # 0 of server medium RUNNING
+t:       9613 job     8 on # 0 of server medium RUNNING
+SENT JCPL 9613 6 medium 0
+RCVD REDY
+t:      10116 job     7 on # 0 of server medium COMPLETED
+t:      10116 job     9 on # 0 of server medium RUNNING
+t:      10116 job    10 on # 0 of server medium RUNNING
+SENT JCPL 10116 7 medium 0
+RCVD REDY
+t:      10133 job     8 on # 0 of server medium COMPLETED
+t:      10133 job    11 on # 0 of server medium RUNNING
+SENT JCPL 10133 8 medium 0
+RCVD REDY
+t:      10164 job    11 on # 0 of server medium COMPLETED
+t:      10164 job    12 on # 0 of server medium RUNNING
+SENT JCPL 10164 11 medium 0
+RCVD REDY
+t:      10262 job    12 on # 0 of server medium COMPLETED
+SENT JCPL 10262 12 medium 0
+RCVD REDY
+t:      10282 job    10 on # 0 of server medium COMPLETED
+SENT JCPL 10282 10 medium 0
+RCVD REDY
+t:      10460 job     9 on # 0 of server medium COMPLETED
+t:      10460 job    13 on # 0 of server medium RUNNING
+SENT JCPL 10460 9 medium 0
+RCVD REDY
+t:      10780 job    13 on # 0 of server medium COMPLETED
+t:      10780 job    14 on # 0 of server medium RUNNING
+SENT JCPL 10780 13 medium 0
+RCVD REDY
+t:      10990 job    14 on # 0 of server medium COMPLETED
+t:      10990 job    15 on # 0 of server medium RUNNING
+t:      10990 job    16 on # 0 of server medium RUNNING
+SENT JCPL 10990 14 medium 0
+RCVD REDY
+t:      11360 job    15 on # 0 of server medium COMPLETED
+SENT JCPL 11360 15 medium 0
+RCVD REDY
+t:      13673 job    16 on # 0 of server medium COMPLETED
+t:      13673 job    18 on # 0 of server medium RUNNING
+SENT JCPL 13673 16 medium 0
+RCVD REDY
+t:      13864 job    18 on # 0 of server medium COMPLETED
+t:      13864 job    21 on # 0 of server medium RUNNING
+SENT JCPL 13864 18 medium 0
+RCVD REDY
+t:      13915 job    21 on # 0 of server medium COMPLETED
+t:      13915 job    22 on # 0 of server medium RUNNING
+SENT JCPL 13915 21 medium 0
+RCVD REDY
+t:      14457 job    22 on # 0 of server medium COMPLETED
+t:      14457 job    23 on # 0 of server medium RUNNING
+t:      14457 job    25 on # 0 of server medium RUNNING
+SENT JCPL 14457 22 medium 0
+RCVD REDY
+t:      14912 job    25 on # 0 of server medium COMPLETED
+SENT JCPL 14912 25 medium 0
+RCVD REDY
+t:      15676 job    23 on # 0 of server medium COMPLETED
+t:      15676 job    27 on # 0 of server medium RUNNING
+SENT JCPL 15676 23 medium 0
+RCVD REDY
+t:      16452 job    27 on # 0 of server medium COMPLETED
+t:      16452 job    28 on # 0 of server medium RUNNING
+SENT JCPL 16452 27 medium 0
+RCVD REDY
+t:      16792 job    28 on # 0 of server medium COMPLETED
+t:      16792 job    32 on # 0 of server medium RUNNING
+t:      16792 job    33 on # 0 of server medium RUNNING
+t:      16792 job    34 on # 0 of server medium RUNNING
+SENT JCPL 16792 28 medium 0
+RCVD REDY
+t:      17352 job    33 on # 0 of server medium COMPLETED
+t:      17352 job    35 on # 0 of server medium RUNNING
+SENT JCPL 17352 33 medium 0
+RCVD REDY
+t:      17598 job    35 on # 0 of server medium COMPLETED
+SENT JCPL 17598 35 medium 0
+RCVD REDY
+t:      17649 job    32 on # 0 of server medium COMPLETED
+t:      17649 job    36 on # 0 of server medium RUNNING
+t:      17649 job    38 on # 0 of server medium RUNNING
+SENT JCPL 17649 32 medium 0
+RCVD REDY
+t:      18076 job    38 on # 0 of server medium COMPLETED
+t:      18076 job    39 on # 0 of server medium RUNNING
+SENT JCPL 18076 38 medium 0
+RCVD REDY
+t:      18201 job    36 on # 0 of server medium COMPLETED
+SENT JCPL 18201 36 medium 0
+RCVD REDY
+t:      18262 job    34 on # 0 of server medium COMPLETED
+SENT JCPL 18262 34 medium 0
+RCVD REDY
+t:      18532 job    39 on # 0 of server medium COMPLETED
+t:      18532 job    40 on # 0 of server medium RUNNING
+SENT JCPL 18532 39 medium 0
+RCVD REDY
+t:      18631 job    40 on # 0 of server medium COMPLETED
+t:      18631 job    41 on # 0 of server medium RUNNING
+SENT JCPL 18631 40 medium 0
+RCVD REDY
+t:      19158 job    41 on # 0 of server medium COMPLETED
+t:      19158 job    42 on # 0 of server medium RUNNING
+t:      19158 job    45 on # 0 of server medium RUNNING
+t:      19158 job    46 on # 0 of server medium RUNNING
+t:      19158 job    47 on # 0 of server medium RUNNING
+SENT JCPL 19158 41 medium 0
+RCVD REDY
+t:      19314 job    46 on # 0 of server medium COMPLETED
+SENT JCPL 19314 46 medium 0
+RCVD REDY
+t:      19392 job    45 on # 0 of server medium COMPLETED
+SENT JCPL 19392 45 medium 0
+RCVD REDY
+t:      19425 job    42 on # 0 of server medium COMPLETED
+t:      19425 job    48 on # 0 of server medium RUNNING
+SENT JCPL 19425 42 medium 0
+RCVD REDY
+t:      19544 job    47 on # 0 of server medium COMPLETED
+SENT JCPL 19544 47 medium 0
+RCVD REDY
+t:      21206 job    48 on # 0 of server medium COMPLETED
+t:      21206 job    49 on # 0 of server medium RUNNING
+SENT JCPL 21206 48 medium 0
+RCVD REDY
+t:      21274 job    49 on # 0 of server medium COMPLETED
+SENT JCPL 21274 49 medium 0
+RCVD REDY
+SENT NONE
+RCVD QUIT
+SENT QUIT
+# -------------------------------------------------------------------------------------
+# 0 small servers used with a utilisation of 0.00 at the cost of $0.00
+# 1 medium servers used with a utilisation of 100.00 at the cost of $2.36
+# 1 large servers used with a utilisation of 100.00 at the cost of $0.31
+# 1 super servers used with a utilisation of 100.00 at the cost of $1.41
+# 0 ultrasuper servers used with a utilisation of 0.00 at the cost of $0.00
+# ==================================== [ Summary ] ====================================
+# actual simulation end time: 21274, #jobs: 50 (failed 0 times)
+# total #servers used: 3, avg util: 100.00% (ef. usage: 100.00%), total cost: $4.07
+# avg waiting time: 10084, avg exec time: 633, avg turnaround time: 10717

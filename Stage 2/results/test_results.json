@@ -1,0 +1,53 @@
+{
+  "Turnaround time": {
+    "config12-long-med.xml": 2485,
+    "config12-med-alt.xml": 390,
+    "config12-med-med.xml": 677,
+    "config12-short-med.xml": 63,
+    "config16-long-high.xml": 3065,
+    "config16-long-med.xml": 2802,
+    "config16-med-high.xml": 1786,
+    "config16-short-high.xml": 1399,
+    "config16-short-med.xml": 915,
+    "config40-long-high.xml": 3752,
+    "config40-long-med.xml": 3627,
+    "config40-med-high.xml": 1116,
+    "config40-med-med.xml": 974,
+    "config40-short-high.xml": 307,
+    "config40-short-med.xml": 191
+  },
+  "Resource utilisation": {
+    "config12-long-med.xml": 74.87,
+    "config12-med-alt.xml": 72.05,
+    "config12-med-med.xml": 70.99,
+    "config12-short-med.xml": 65.61,
+    "config16-long-high.xml": 86.78,
+    "config16-long-med.xml": 69.33,
+    "config16-med-high.xml": 86.04,
+    "config16-short-high.xml": 85.29,
+    "config16-short-med.xml": 69.51,
+    "config40-long-high.xml": 94.84,
+    "config40-long-med.xml": 78.71,
+    "config40-med-high.xml": 93.36,
+    "config40-med-med.xml": 69.51,
+    "config40-short-high.xml": 94.49,
+    "config40-short-med.xml": 82.42
+  },
+  "Total rental cost": {
+    "config12-long-med.xml": 133.92,
+    "config12-med-alt.xml": 112.52,
+    "config12-med-med.xml": 133.95,
+    "config12-short-med.xml": 21.67,
+    "config16-long-high.xml": 588.72,
+    "config16-long-med.xml": 583.63,
+    "config16-med-high.xml": 580.62,
+    "config16-short-high.xml": 579.5,
+    "config16-short-med.xml": 582.17,
+    "config40-long-high.xml": 1248.47,
+    "config40-long-med.xml": 1196.04,
+    "config40-med-high.xml": 612.02,
+    "config40-med-med.xml": 602.97,
+    "config40-short-high.xml": 596.76,
+    "config40-short-med.xml": 593.42
+  }
+}
