@@ -81,8 +81,8 @@ public class Stage2 {
                         // System.out.println(str);
                         serverType = serverInfo[0]; // set the new server type
                         serverAmount = Integer.parseInt(serverInfo[1]); // set new server amount
-                        serverSize = Integer.parseInt(serverInfo[4]); // set new server size
-                        int serverMemory = Integer.parseInt(serverInfo[6]); // set server memory
+                        serverSize = Integer.parseInt(serverInfo[4]); // set new server size (cores)
+                        int serverMemory = Integer.parseInt(serverInfo[6]); // set server disk space
                         serverWaiting = Integer.parseInt(serverInfo[7]); // jobs in queue for server
                         int serverCurrentJob = Integer.parseInt(serverInfo[8]); // jobs currently being run on server
                         serverWaiting += serverCurrentJob; // adding current running jobs to jobs in queue

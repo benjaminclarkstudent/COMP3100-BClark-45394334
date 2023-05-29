@@ -9,194 +9,194 @@ RCVD AUTH bdclark1999
 SENT OK
 RCVD REDY
 SENT JOBN 32 0 47066 1 700 600
-RCVD SCHD 0 t1.micro 0
-t:         32 job     0 (waiting) on # 0 of server t1.micro (booting) SCHEDULED
+RCVD SCHD 0 t2.aws 0
+t:         32 job     0 (waiting) on # 0 of server t2.aws (booting) SCHEDULED
 SENT OK
 RCVD REDY
 SENT JOBN 54 1 217 1 400 800
-RCVD SCHD 1 t1.micro 0
-t:         54 job     1 (waiting) on # 0 of server t1.micro (booting) SCHEDULED
+RCVD SCHD 1 t1.medium 0
+t:         54 job     1 (waiting) on # 0 of server t1.medium (booting) SCHEDULED
 SENT OK
 RCVD REDY
 SENT JOBN 55 2 1739 1 400 800
-RCVD SCHD 2 t1.micro 0
-t:         55 job     2 (waiting) on # 0 of server t1.micro (booting) SCHEDULED
+RCVD SCHD 2 t1.medium 1
+t:         55 job     2 (waiting) on # 1 of server t1.medium (booting) SCHEDULED
 SENT OK
 RCVD REDY
-t:         62 job     0 on # 0 of server t1.micro RUNNING
-t:         62 job     1 on # 0 of server t1.micro RUNNING
+t:         92 job     0 on # 0 of server t2.aws RUNNING
+t:         94 job     1 on # 0 of server t1.medium RUNNING
+t:         95 job     2 on # 1 of server t1.medium RUNNING
 SENT JOBN 98 3 2172 1 200 1600
 RCVD SCHD 3 t1.micro 0
-t:         98 job     3 (waiting) on # 0 of server t1.micro (active) SCHEDULED
+t:         98 job     3 (waiting) on # 0 of server t1.micro (booting) SCHEDULED
 SENT OK
 RCVD REDY
 SENT JOBN 105 4 83159 3 1200 3500
-RCVD SCHD 4 t1.medium 0
-t:        105 job     4 (waiting) on # 0 of server t1.medium (booting) SCHEDULED
+RCVD SCHD 4 t2.aws 0
+t:        105 job     4 (running) on # 0 of server t2.aws (active) SCHEDULED
+t:        105 job     4 on # 0 of server t2.aws RUNNING
 SENT OK
 RCVD REDY
 SENT JOBN 123 5 125503 1 400 1200
-RCVD SCHD 5 t1.micro 0
-t:        123 job     5 (waiting) on # 0 of server t1.micro (active) SCHEDULED
+RCVD SCHD 5 t1.micro 1
+t:        123 job     5 (waiting) on # 1 of server t1.micro (booting) SCHEDULED
 SENT OK
 RCVD REDY
+t:        128 job     3 on # 0 of server t1.micro RUNNING
 SENT JOBN 136 6 76615 1 1000 100
-RCVD SCHD 6 t1.micro 0
-t:        136 job     6 (waiting) on # 0 of server t1.micro (active) SCHEDULED
+RCVD SCHD 6 t1.small 0
+t:        136 job     6 (waiting) on # 0 of server t1.small (booting) SCHEDULED
 SENT OK
 RCVD REDY
 SENT JOBN 142 7 135748 1 800 1300
-RCVD SCHD 7 t1.micro 0
-t:        142 job     7 (waiting) on # 0 of server t1.micro (active) SCHEDULED
+RCVD SCHD 7 t1.small 1
+t:        142 job     7 (waiting) on # 1 of server t1.small (booting) SCHEDULED
 SENT OK
 RCVD REDY
-t:        145 job     4 on # 0 of server t1.medium RUNNING
+t:        153 job     5 on # 1 of server t1.micro RUNNING
 SENT JOBN 170 8 248 2 2000 1600
-RCVD SCHD 8 t1.micro 0
-t:        170 job     8 (waiting) on # 0 of server t1.micro (active) SCHEDULED
+RCVD SCHD 8 t1.medium 0
+t:        170 job     8 (running) on # 0 of server t1.medium (active) SCHEDULED
+t:        170 job     8 on # 0 of server t1.medium RUNNING
 SENT OK
+RCVD REDY
+t:        176 job     6 on # 0 of server t1.small RUNNING
+t:        182 job     7 on # 1 of server t1.small RUNNING
+t:        340 job     8 on # 0 of server t1.medium COMPLETED
+SENT JCPL 340 8 t1.medium 0
 RCVD REDY
 SENT JOBN 366 9 49 2 2000 1500
-RCVD SCHD 9 t1.micro 0
-t:        366 job     9 (waiting) on # 0 of server t1.micro (active) SCHEDULED
+RCVD SCHD 9 t1.medium 0
+t:        366 job     9 (running) on # 0 of server t1.medium (active) SCHEDULED
+t:        366 job     9 on # 0 of server t1.medium RUNNING
 SENT OK
+RCVD REDY
+t:        886 job     9 on # 0 of server t1.medium COMPLETED
+SENT JCPL 886 9 t1.medium 0
 RCVD REDY
 SENT JOBN 919 10 980 2 200 600
-RCVD SCHD 10 t1.micro 0
-t:        919 job    10 (waiting) on # 0 of server t1.micro (active) SCHEDULED
+RCVD SCHD 10 t1.medium 0
+t:        919 job    10 (running) on # 0 of server t1.medium (active) SCHEDULED
+t:        919 job    10 on # 0 of server t1.medium RUNNING
 SENT OK
 RCVD REDY
+t:       1556 job     2 on # 1 of server t1.medium COMPLETED
+SENT JCPL 1556 2 t1.medium 1
+RCVD REDY
 SENT JOBN 1631 11 453 2 1000 1300
-RCVD SCHD 11 t1.micro 0
-t:       1631 job    11 (waiting) on # 0 of server t1.micro (active) SCHEDULED
+RCVD SCHD 11 t1.medium 1
+t:       1631 job    11 (running) on # 1 of server t1.medium (active) SCHEDULED
+t:       1631 job    11 on # 1 of server t1.medium RUNNING
 SENT OK
 RCVD REDY
 SENT JOBN 1784 12 1615 1 500 1700
-RCVD SCHD 12 t1.micro 0
-t:       1784 job    12 (waiting) on # 0 of server t1.micro (active) SCHEDULED
+RCVD SCHD 12 t1.medium 1
+t:       1784 job    12 (running) on # 1 of server t1.medium (active) SCHEDULED
+t:       1784 job    12 on # 1 of server t1.medium RUNNING
 SENT OK
 RCVD REDY
+t:       1786 job     3 on # 0 of server t1.micro COMPLETED
+SENT JCPL 1786 3 t1.micro 0
+RCVD REDY
+t:       1997 job    11 on # 1 of server t1.medium COMPLETED
+SENT JCPL 1997 11 t1.medium 1
+RCVD REDY
 SENT JOBN 2073 13 20 3 2300 1800
-RCVD SCHD 13 t1.medium 0
-t:       2073 job    13 (waiting) on # 0 of server t1.medium (active) SCHEDULED
+RCVD SCHD 13 t1.medium 1
+t:       2073 job    13 (running) on # 1 of server t1.medium (active) SCHEDULED
+t:       2073 job    13 on # 1 of server t1.medium RUNNING
 SENT OK
+RCVD REDY
+t:       2278 job    13 on # 1 of server t1.medium COMPLETED
+SENT JCPL 2278 13 t1.medium 1
 RCVD REDY
 SENT JOBN 2396 14 1567 9 5600 17600
 RCVD SCHD 14 t2.aws 0
-t:       2396 job    14 (waiting) on # 0 of server t2.aws (booting) SCHEDULED
+t:       2396 job    14 (running) on # 0 of server t2.aws (active) SCHEDULED
+t:       2396 job    14 on # 0 of server t2.aws RUNNING
 SENT OK
 RCVD REDY
-t:       2456 job    14 on # 0 of server t2.aws RUNNING
-t:       3317 job    14 on # 0 of server t2.aws COMPLETED
-SENT JCPL 3317 14 t2.aws 0
+t:       2487 job    10 on # 0 of server t1.medium COMPLETED
+SENT JCPL 2487 10 t1.medium 0
+RCVD REDY
+t:       2704 job    12 on # 1 of server t1.medium COMPLETED
+SENT JCPL 2704 12 t1.medium 1
+RCVD REDY
+t:       3257 job    14 on # 0 of server t2.aws COMPLETED
+SENT JCPL 3257 14 t2.aws 0
 RCVD REDY
 SENT JOBN 3408 15 22911 1 500 1300
-RCVD SCHD 15 t1.micro 0
-t:       3408 job    15 (waiting) on # 0 of server t1.micro (active) SCHEDULED
+RCVD SCHD 15 t1.medium 1
+t:       3408 job    15 (running) on # 1 of server t1.medium (active) SCHEDULED
+t:       3408 job    15 on # 1 of server t1.medium RUNNING
 SENT OK
 RCVD REDY
 SENT JOBN 3431 16 447 1 700 900
 RCVD SCHD 16 t1.micro 0
-t:       3431 job    16 (waiting) on # 0 of server t1.micro (active) SCHEDULED
+t:       3431 job    16 (running) on # 0 of server t1.micro (active) SCHEDULED
+t:       3431 job    16 on # 0 of server t1.micro RUNNING
 SENT OK
 RCVD REDY
 SENT JOBN 3496 17 93512 1 600 1400
-RCVD SCHD 17 t1.micro 0
-t:       3496 job    17 (waiting) on # 0 of server t1.micro (active) SCHEDULED
+RCVD SCHD 17 t1.medium 0
+t:       3496 job    17 (running) on # 0 of server t1.medium (active) SCHEDULED
+t:       3496 job    17 on # 0 of server t1.medium RUNNING
 SENT OK
 RCVD REDY
+t:       3746 job    16 on # 0 of server t1.micro COMPLETED
+SENT JCPL 3746 16 t1.micro 0
+RCVD REDY
 SENT JOBN 3979 18 1268 4 900 2300
-RCVD SCHD 18 t1.medium 0
-t:       3979 job    18 (waiting) on # 0 of server t1.medium (active) SCHEDULED
+RCVD SCHD 18 t1.medium 1
+t:       3979 job    18 (waiting) on # 1 of server t1.medium (active) SCHEDULED
 SENT OK
 RCVD REDY
 SENT JOBN 4723 19 1255 4 2500 3900
-RCVD SCHD 19 t1.medium 0
-t:       4723 job    19 (waiting) on # 0 of server t1.medium (active) SCHEDULED
+RCVD SCHD 19 t2.aws 0
+t:       4723 job    19 (running) on # 0 of server t2.aws (active) SCHEDULED
+t:       4723 job    19 on # 0 of server t2.aws RUNNING
 SENT OK
 RCVD REDY
-t:      41528 job     1 on # 0 of server t1.micro COMPLETED
-t:      41528 job     2 on # 0 of server t1.micro RUNNING
-SENT JCPL 41528 1 t1.micro 0
+t:       5705 job    19 on # 0 of server t2.aws COMPLETED
+SENT JCPL 5705 19 t2.aws 0
 RCVD REDY
-t:      42989 job     2 on # 0 of server t1.micro COMPLETED
-t:      42989 job     3 on # 0 of server t1.micro RUNNING
-SENT JCPL 42989 2 t1.micro 0
+t:      35752 job    15 on # 1 of server t1.medium COMPLETED
+t:      35752 job    18 on # 1 of server t1.medium RUNNING
+SENT JCPL 35752 15 t1.medium 1
 RCVD REDY
-t:      44647 job     3 on # 0 of server t1.micro COMPLETED
-t:      44647 job     5 on # 0 of server t1.micro RUNNING
-SENT JCPL 44647 3 t1.micro 0
+t:      36495 job    18 on # 1 of server t1.medium COMPLETED
+SENT JCPL 36495 18 t1.medium 1
 RCVD REDY
-t:      62006 job     4 on # 0 of server t1.medium COMPLETED
-t:      62006 job    13 on # 0 of server t1.medium RUNNING
-SENT JCPL 62006 4 t1.medium 0
+t:      41560 job     1 on # 0 of server t1.medium COMPLETED
+SENT JCPL 41560 1 t1.medium 0
 RCVD REDY
-t:      62211 job    13 on # 0 of server t1.medium COMPLETED
-t:      62211 job    18 on # 0 of server t1.medium RUNNING
-SENT JCPL 62211 13 t1.medium 0
+t:      55960 job     6 on # 0 of server t1.small COMPLETED
+SENT JCPL 55960 6 t1.small 0
 RCVD REDY
-t:      62954 job    18 on # 0 of server t1.medium COMPLETED
-t:      62954 job    19 on # 0 of server t1.medium RUNNING
-SENT JCPL 62954 18 t1.medium 0
+t:      61966 job     4 on # 0 of server t2.aws COMPLETED
+SENT JCPL 61966 4 t2.aws 0
 RCVD REDY
-t:      63936 job    19 on # 0 of server t1.medium COMPLETED
-SENT JCPL 63936 19 t1.medium 0
+t:      64323 job     0 on # 0 of server t2.aws COMPLETED
+SENT JCPL 64323 0 t2.aws 0
 RCVD REDY
-t:      64293 job     0 on # 0 of server t1.micro COMPLETED
-t:      64293 job     6 on # 0 of server t1.micro RUNNING
-SENT JCPL 64293 0 t1.micro 0
+t:      76809 job    17 on # 0 of server t1.medium COMPLETED
+SENT JCPL 76809 17 t1.medium 0
 RCVD REDY
-t:     120077 job     6 on # 0 of server t1.micro COMPLETED
-t:     120077 job     7 on # 0 of server t1.micro RUNNING
-SENT JCPL 120077 6 t1.micro 0
+t:      79190 job     5 on # 1 of server t1.micro COMPLETED
+SENT JCPL 79190 5 t1.micro 1
 RCVD REDY
-t:     123684 job     5 on # 0 of server t1.micro COMPLETED
-SENT JCPL 123684 5 t1.micro 0
-RCVD REDY
-t:     211859 job     7 on # 0 of server t1.micro COMPLETED
-t:     211859 job     8 on # 0 of server t1.micro RUNNING
-SENT JCPL 211859 7 t1.micro 0
-RCVD REDY
-t:     212029 job     8 on # 0 of server t1.micro COMPLETED
-t:     212029 job     9 on # 0 of server t1.micro RUNNING
-SENT JCPL 212029 8 t1.micro 0
-RCVD REDY
-t:     212549 job     9 on # 0 of server t1.micro COMPLETED
-t:     212549 job    10 on # 0 of server t1.micro RUNNING
-SENT JCPL 212549 9 t1.micro 0
-RCVD REDY
-t:     214117 job    10 on # 0 of server t1.micro COMPLETED
-t:     214117 job    11 on # 0 of server t1.micro RUNNING
-SENT JCPL 214117 10 t1.micro 0
-RCVD REDY
-t:     214483 job    11 on # 0 of server t1.micro COMPLETED
-t:     214483 job    12 on # 0 of server t1.micro RUNNING
-t:     214483 job    15 on # 0 of server t1.micro RUNNING
-SENT JCPL 214483 11 t1.micro 0
-RCVD REDY
-t:     215403 job    12 on # 0 of server t1.micro COMPLETED
-t:     215403 job    16 on # 0 of server t1.micro RUNNING
-SENT JCPL 215403 12 t1.micro 0
-RCVD REDY
-t:     215718 job    16 on # 0 of server t1.micro COMPLETED
-t:     215718 job    17 on # 0 of server t1.micro RUNNING
-SENT JCPL 215718 16 t1.micro 0
-RCVD REDY
-t:     246827 job    15 on # 0 of server t1.micro COMPLETED
-SENT JCPL 246827 15 t1.micro 0
-RCVD REDY
-t:     289031 job    17 on # 0 of server t1.micro COMPLETED
-SENT JCPL 289031 17 t1.micro 0
+t:      91964 job     7 on # 1 of server t1.small COMPLETED
+SENT JCPL 91964 7 t1.small 1
 RCVD REDY
 SENT NONE
 RCVD QUIT
 SENT QUIT
 # -------------------------------------------------------------------------------------
-# 1 t1.micro servers used with a utilisation of 100.00 at the cost of $16.05
-# 0 t1.small servers used with a utilisation of 0.00 at the cost of $0.00
-# 1 t1.medium servers used with a utilisation of 100.00 at the cost of $7.09
-# 1 t2.aws servers used with a utilisation of 100.00 at the cost of $0.19
+# 2 t1.micro servers used with a utilisation of 77.27 at the cost of $4.59
+# 2 t1.small servers used with a utilisation of 100.00 at the cost of $16.40
+# 2 t1.medium servers used with a utilisation of 98.93 at the cost of $12.57
+# 1 t2.aws servers used with a utilisation of 100.00 at the cost of $14.27
 # ==================================== [ Summary ] ====================================
-# actual simulation end time: 289031, #jobs: 20 (failed 0 times)
-# total #servers used: 3, avg util: 100.00% (ef. usage: 100.00%), total cost: $23.33
-# avg waiting time: 109247, avg exec time: 25479, avg turnaround time: 134726
+# actual simulation end time: 91964, #jobs: 20 (failed 0 times)
+# total #servers used: 7, avg util: 93.20% (ef. usage: 99.41%), total cost: $47.83
+# avg waiting time: 1602, avg exec time: 25479, avg turnaround time: 27081
